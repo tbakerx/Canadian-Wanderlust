@@ -1,0 +1,11 @@
+email: timbaker@canadianwanderlust.com
+fullname: 'Tim Baker'
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$xVIIYRCpbaKKBFPgTZudt./1GxVA9VxuqRNr.Iec2x0WY5MYZsVou
