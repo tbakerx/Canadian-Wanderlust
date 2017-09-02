@@ -6,4 +6,4 @@ template: error
 routable: false
 http_response_code: 404
 ---
-Woops. Looks like this page doesn't exist.
+Whoops. Looks like we haven't been here yet.

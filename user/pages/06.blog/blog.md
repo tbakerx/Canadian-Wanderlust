@@ -4,7 +4,7 @@ body_classes: 'header-lite fullwidth blogstyling'
 menu: Blog
 content:
     items: '@self.children'
-    limit: 5
+    limit: 3
     order:
         by: date
         dir: desc
