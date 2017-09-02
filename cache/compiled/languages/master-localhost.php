@@ -1,277 +1,285 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1504247038,
-    'checksum' => 'b44fd42286c16d9bd61fd1f279478e78',
+    'timestamp' => 1504378020,
+    'checksum' => 'a9e7ae9231a43c37820228cbb9f5edd1',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ]
         ],
         'user/plugins' => [
             'plugins/email' => [
                 'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892526
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/languages.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377910
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/languages.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377919
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/languages.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892526
+            ],
+            'plugins/simplesearch' => [
+                'file' => 'user/plugins/simplesearch/languages.yaml',
+                'modified' => 1502892530
+            ],
+            'plugins/relatedpages' => [
+                'file' => 'user/plugins/relatedpages/languages.yaml',
+                'modified' => 1502892530
             ]
         ],
         'user/plugins/admin/languages' => [
             'ar' => [
                 'file' => 'user/plugins/admin/languages/ar.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'bg' => [
                 'file' => 'user/plugins/admin/languages/bg.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'br' => [
                 'file' => 'user/plugins/admin/languages/br.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'ca' => [
                 'file' => 'user/plugins/admin/languages/ca.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'cs' => [
                 'file' => 'user/plugins/admin/languages/cs.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'cy' => [
                 'file' => 'user/plugins/admin/languages/cy.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'da' => [
                 'file' => 'user/plugins/admin/languages/da.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'de' => [
                 'file' => 'user/plugins/admin/languages/de.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'el' => [
                 'file' => 'user/plugins/admin/languages/el.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'en' => [
                 'file' => 'user/plugins/admin/languages/en.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'es' => [
                 'file' => 'user/plugins/admin/languages/es.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'fa' => [
                 'file' => 'user/plugins/admin/languages/fa.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'fi' => [
                 'file' => 'user/plugins/admin/languages/fi.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'fr' => [
                 'file' => 'user/plugins/admin/languages/fr.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'hr' => [
                 'file' => 'user/plugins/admin/languages/hr.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'hu' => [
                 'file' => 'user/plugins/admin/languages/hu.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'it' => [
                 'file' => 'user/plugins/admin/languages/it.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'ja' => [
                 'file' => 'user/plugins/admin/languages/ja.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'ko' => [
                 'file' => 'user/plugins/admin/languages/ko.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'lt' => [
                 'file' => 'user/plugins/admin/languages/lt.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'nl' => [
                 'file' => 'user/plugins/admin/languages/nl.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'no' => [
                 'file' => 'user/plugins/admin/languages/no.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'pl' => [
                 'file' => 'user/plugins/admin/languages/pl.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'pt' => [
                 'file' => 'user/plugins/admin/languages/pt.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'ro' => [
                 'file' => 'user/plugins/admin/languages/ro.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'ru' => [
                 'file' => 'user/plugins/admin/languages/ru.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'sk' => [
                 'file' => 'user/plugins/admin/languages/sk.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'sv' => [
                 'file' => 'user/plugins/admin/languages/sv.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'th' => [
                 'file' => 'user/plugins/admin/languages/th.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'tlh' => [
                 'file' => 'user/plugins/admin/languages/tlh.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'tr' => [
                 'file' => 'user/plugins/admin/languages/tr.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'uk' => [
                 'file' => 'user/plugins/admin/languages/uk.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'vi' => [
                 'file' => 'user/plugins/admin/languages/vi.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ],
             'zh' => [
                 'file' => 'user/plugins/admin/languages/zh.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ]
         ]
     ],
@@ -2630,6 +2638,12 @@ Ruta: `%2$s`
                 'YES' => 'Ano',
                 'NO' => 'Ne'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Vyhledat...',
+                'SEARCH_RESULTS' => 'Výsledky hledání',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Hledání výrazu \'<strong>%s</strong>\' našlo jeden výsledek',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Hledání výrazu \'<strong>%s</strong>\' našlo %s výsledků'
+            ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'vybavení',
                 1 => 'informace',
@@ -4134,6 +4148,43 @@ Sti: `%2$s`
                 'ERROR' => 'Fehler',
                 'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Suche...',
+                'SEARCH_RESULTS' => 'Suchergebnisse',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Suche: <strong>%s</strong> fand ein Ergebnis',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Suche: <strong>%s</strong> fand %s Ergebnisse'
+            ],
+            'PLUGIN_REL_PAGES' => [
+                'PLUGIN_STATUS' => 'Plugin-Status',
+                'BASICS' => 'Grundeinstellungen',
+                'LIMIT' => 'Angezeigt',
+                'LIMIT_HELP' => 'Die Anzahl der angezeigten verwandten Seiten',
+                'ORDER' => 'Reihenfolge',
+                'ORDER_BY' => 'Sortiert nach',
+                'SHOW_SCORE' => 'Zeige Bewertung',
+                'SHOW_SCORE_HELP' => 'Umschalter, ob die Bewertung in der Ausgabe angezeigt werden soll',
+                'ITEMS' => 'Elemente',
+                'ITEMS_HELP' => 'Unterstützt `@self`, `@page`, und `@taxonomy` basierte Sammlungen (collections)',
+                'PAGE_IN_FILTER' => 'Seite \'drin\' Filter',
+                'PAGE_IN_FILTER_HELP' => 'Aktiviert, wenn die aktuelle Seite in der gefilterten Sammlung (collection) enthalten sein muss',
+                'EXPLICIT_PROCESS' => 'Verarbeite explizite Seiten',
+                'EXPLICIT_PROCESS_HELP' => 'Aktiviere diesen Abgleich der expliziten Seiten',
+                'EXPLICIT_SCORE' => 'Bewertung der expliziten Seiten',
+                'EXPLICIT_SCORE_HELP' => 'Eine Bewertung von (0 - 100) um expliziten Seiten eine Gewichtung zu geben',
+                'TAXONOMY_MATCH' => 'Abgleich der Taxonomie-Typen',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Welcher Taxonomie-Typ soll für den Seiten-Abgleich genutzt werden',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-Taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Taxonomie-Abgleich',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-Inhalt',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Inhalts-Abgleich',
+                'CONTENT_MATCH' => 'Abgleich der Inhalts-Typen',
+                'CONTENT_PROCESS' => 'Inhalt-Inhalt',
+                'CONTENT_PROCESS_HELP' => 'Aktiviere den Inhalt-zu-Inhalt-Abgleich (Beachte: Deaktivieren bei viel Inhalt)',
+                'ADVANCED' => 'Erweitert',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-Taxonomie Bewertungsskala',
+                'CONTENT_SCORE_SCALE' => 'Taxonomie-Inhalt Bewertungsskala'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
 ---
@@ -5444,6 +5495,43 @@ Pfad: `%2$s`
                 'ERROR' => 'Error',
                 'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Search...',
+                'SEARCH_RESULTS' => 'Search Results',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> found one result',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> found %s results',
+                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Please add at least %s characters'
+            ],
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Basic Settings',
+                'LIMIT' => 'Limit',
+                'LIMIT_HELP' => 'The number of related pages to display',
+                'ORDER' => 'Order',
+                'ORDER_BY' => 'Ordery by',
+                'SHOW_SCORE' => 'Show score',
+                'SHOW_SCORE_HELP' => 'Toggle to determine if scores should be displayed in output',
+                'ITEMS' => 'Items',
+                'ITEMS_HELP' => 'Supports `@self`, `@page`, and `@taxonomy` based collections',
+                'PAGE_IN_FILTER' => 'Page \'in\' filter',
+                'PAGE_IN_FILTER_HELP' => 'Enabled if the current page must be in the filtered collection',
+                'EXPLICIT_PROCESS' => 'Process explicit pages',
+                'EXPLICIT_PROCESS_HELP' => 'Enable this explicit page matching',
+                'EXPLICIT_SCORE' => 'Explicit page score',
+                'EXPLICIT_SCORE_HELP' => 'A score ranging from (0 - 100) to give explicit pages a weight',
+                'TAXONOMY_MATCH' => 'Taxonomy Type Matching',
+                'TAXONOMY' => 'Taxonomy',
+                'TAXONOMY_HELP' => 'Which taxonomy type to use for page matching',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomy-taxonomy',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Enable taxonomy to taxonomy matching',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomy-content',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Enable taxonomy to Content matching',
+                'CONTENT_MATCH' => 'Content Type Matching',
+                'CONTENT_PROCESS' => 'Content-content',
+                'CONTENT_PROCESS_HELP' => 'Enable content to content matching (NOTE: Disable if you have lots of content)',
+                'ADVANCED' => 'Advanced',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomy-taxonomy score scale',
+                'CONTENT_SCORE_SCALE' => 'Taxonomy-content score scale'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
 ---
@@ -6250,6 +6338,12 @@ Path: `%2$s`
                 'RECAPTCHA_SECRET_KEY' => 'Secret key',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Buscar...',
+                'SEARCH_RESULTS' => 'Resultados de la búsqueda',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Consulta: <strong>%s</strong> se encontró 1 resultado',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Consulta: <strong>%s</strong> se encontraron %s resultados'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
 ---
@@ -6691,6 +6785,12 @@ Ruta: `%2$s`
                 'NO_USER_ACCOUNTS' => 'حساب های کاربری پیدا نشد ، لطفا ابتدا یکی بسازید...',
                 'DEFAULT_DATE_FORMAT' => 'فرمت تاریخ صفحه',
                 'DEFAULT_DATE_FORMAT_HELP' => 'نوع نمایش تاریخ صفحه توسط Grav. به صورت پیش فرض Grav قصد دارد نوع نمایش تاریخ را پیشنهاد کند ، هرچند شما میتوانید یک نوع نمایش تاریخ با استفاده از سینتکس تاریخ PHP مشخص کنید (مانند: Y-m-d H:i)'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'جستجو...',
+                'SEARCH_RESULTS' => 'نتایج جستجو',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'جستار: <strong>%s</strong> یک نتیجه یافت شد',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'جستار: <strong>%s</strong> %s نتیجه یافت شد'
             ]
         ],
         'fi' => [
@@ -7712,6 +7812,42 @@ Ruta: `%2$s`
                 'ERROR' => 'Erreur',
                 'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Recherche...',
+                'SEARCH_RESULTS' => 'Résultats de la recherche',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Recherche : Un résultat trouvé pour <strong>%s</strong>',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Recherche : %2$s résultats trouvés pour <strong>%1$s</strong>'
+            ],
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Réglages de base',
+                'LIMIT' => 'Limite',
+                'LIMIT_HELP' => 'Le nombre de pages en relation à afficher',
+                'ORDER' => 'Classement',
+                'ORDER_BY' => 'Classement par',
+                'SHOW_SCORE' => 'Afficher le score',
+                'SHOW_SCORE_HELP' => 'Activer/désactiver afin de déterminer si les scores doivent être affichés en sortie',
+                'ITEMS' => 'Éléments',
+                'ITEMS_HELP' => 'Prise en charge des collections basées sur `@self`, `@page` et `@taxonomy`',
+                'PAGE_IN_FILTER' => 'Page \'dans\' le filtre',
+                'PAGE_IN_FILTER_HELP' => 'Activer si la page actuelle doit être présente dans la collection filtrée',
+                'EXPLICIT_PROCESS' => 'Traiter les pages explicites',
+                'EXPLICIT_PROCESS_HELP' => 'Activer la correspondance explicite pour cette page',
+                'EXPLICIT_SCORE' => 'Score explicite de la page',
+                'EXPLICIT_SCORE_HELP' => 'Un score compris entre (0 - 100) pour rendre une page explicite',
+                'TAXONOMY_MATCH' => 'Correspondance par type de taxonomie',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Quel type de taxonomie utiliser pour la correspondance des pages',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de taxonomie',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-contenu',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de contenu',
+                'CONTENT_MATCH' => 'Correspondance par type de contenu',
+                'CONTENT_PROCESS' => 'Contenu-contenu',
+                'CONTENT_PROCESS_HELP' => 'Activer la correspondance de contenu (NOTE : désactivez si vous avez beaucoup de contenu)',
+                'ADVANCED' => 'Avancés',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-niveau de score de taxonomie',
+                'CONTENT_SCORE_SCALE' => 'Taxonomie-niveau de score de contenu'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
 ---
@@ -8462,6 +8598,12 @@ Path: `%2$s`
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Greška',
                 'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Traži...',
+                'SEARCH_RESULTS' => 'Rezultati pretrage',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Upit: <strong>%s</strong> je pronašao jedan rezultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Upit: <strong>%s</strong> je pronašao %s rezultata'
             ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'oprema',
@@ -9991,6 +10133,13 @@ Elérési út: `%2$s`
                 'ERROR' => 'Errore',
                 'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Cerca...',
+                'SEARCH_RESULTS' => 'Risultati della ricerca',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Ricerca: <strong>%s</strong>. Trovato un risultato',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Ricerca: <strong>%s</strong>. Trovati %s risultati',
+                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Inserisci almeno %s caratteri'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---Titolo: %1$s---# Errore: Frontmatter non valido: \'%2$s\' * *%3$s * * \' \'%4$s \' \'',
             'NICETIME' => [
                 'NO_DATE_PROVIDED' => 'Nessuna data fornita',
@@ -10542,6 +10691,12 @@ Elérési út: `%2$s`
                 'UPDATING_PACKAGES' => 'パッケージを更新中...',
                 'PACKAGES_SUCCESSFULLY_UPDATED' => 'パッケージは正常に更新されました。',
                 'UPDATING' => '更新中'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => '検索する...',
+                'SEARCH_RESULTS' => '検索結果',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => '検索 : <strong>%s</strong> に一つの結果があります。',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => '検索 : <strong>%s</strong> に %s の結果があります。'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -11707,6 +11862,12 @@ Path: `%2$s`
                 'ALL' => 'Alle',
                 'FROM' => 'van',
                 'TO' => 'aan'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Zoeken...',
+                'SEARCH_RESULTS' => 'Zoek resultaat',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> is 1 keer gevonden',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> is %s keer gevonden'
             ],
             'INFLECTOR_IRREGULAR' => [
                 'person' => 'personen',
@@ -13110,6 +13271,12 @@ Path: `%2$s`
                 'TO' => 'para',
                 'RESOURCE_FILTER' => 'Filtro...'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'O que você procura?',
+                'SEARCH_RESULTS' => 'Resultados da pesquisa',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Pesquisa: <strong>%s</strong>. Foram encontrados 1 resultados',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Pesquisa: <strong>%s</strong>. Foram encontrados %s resultados'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 título: %1$s
 ---
@@ -13947,6 +14114,42 @@ Caminho: `%2$s`
                 'ERROR' => 'Eroare',
                 'ERROR_MESSAGE' => 'Ooops. Se pare că pagina nu există.'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Caută...',
+                'SEARCH_RESULTS' => 'Rezultatele căutării',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Căutarea: <strong>%s</strong> a găsit un rezultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Căutarea: <strong>%s</strong> a găsit %s rezultate'
+            ],
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Setări de bază',
+                'LIMIT' => 'Limită',
+                'LIMIT_HELP' => 'Numărul afișat al paginilor legate',
+                'ORDER' => 'Ordinea',
+                'ORDER_BY' => 'Ordonează după',
+                'SHOW_SCORE' => 'Arată scorul',
+                'SHOW_SCORE_HELP' => 'Comutați pentru afișarea scorurilor',
+                'ITEMS' => 'Articole',
+                'ITEMS_HELP' => 'Acceptă colecții bazate pe `@self`, `@page` și `@taxonomy`',
+                'PAGE_IN_FILTER' => 'Filtru \'in\' pagină',
+                'PAGE_IN_FILTER_HELP' => 'Activează dacă pagina curentă trebuie să fie în colecția filtrată',
+                'EXPLICIT_PROCESS' => 'Procesează anumite pagini specifice',
+                'EXPLICIT_PROCESS_HELP' => 'Activează pentru procesarea anumitor pagini specifice',
+                'EXPLICIT_SCORE' => 'Scorul paginilor specifice',
+                'EXPLICIT_SCORE_HELP' => 'Un scor între (0 - 100) pentru a da unor pagini specifice greutate',
+                'TAXONOMY_MATCH' => 'Potrivire după Taxonomie',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Ce fel de taxonomie să fie folosită la potrivirea paginilor',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activeazā potrivirea între taxonomii',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-conținut',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activează potrivirea după taxonomie - conținut',
+                'CONTENT_MATCH' => 'Potrivirea după conținut',
+                'CONTENT_PROCESS' => 'Conținut-conținut',
+                'CONTENT_PROCESS_HELP' => 'Activează pentru potrivire după conținut (Notă: dezactivați dacă aveți conținut mult)',
+                'ADVANCED' => 'Avansat',
+                'TAXONOMY_SCORE_SCALE' => 'Scorul scalei Taxonomie-taxonomie',
+                'CONTENT_SCORE_SCALE' => 'Scorul scalei Taxonomie-conținut'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 Titlu: %1$s
 ---
@@ -14676,6 +14879,12 @@ Calea: `%2$s`
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Ошибка',
                 'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Найти...',
+                'SEARCH_RESULTS' => 'Результат поиска',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'По запросу: <strong>%s</strong> результатов найдено 1',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'По запросу: <strong>%s</strong> результатов найдено %s'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -15438,6 +15647,12 @@ Path: `%2$s`
                 'NON_VISIBLE' => 'Icke synlig',
                 'NOTIFICATIONS' => 'Notifikationer',
                 'LEGEND' => 'Sidförklaring'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Sök...',
+                'SEARCH_RESULTS' => 'Sökresultat',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Sökning: <strong>%s</strong> hittade ett resultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Sökning: <strong>%s</strong> hittade %s resultat'
             ],
             'FRONTMATTER_ERROR_PAGE' => '--- titel: %1$s --- # Fel: Ogiltig Frontmatter-sökväg: `%2$s` **%3$s** ``` %4$s ```',
             'NICETIME' => [
@@ -17687,6 +17902,12 @@ Path: `%2$s`
             'PLUGIN_ERROR' => [
                 'ERROR' => '错误',
                 'ERROR_MESSAGE' => '呃，似乎这个页面不存在。'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => '搜索...',
+                'SEARCH_RESULTS' => '搜索结果',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => '查询: <strong>%s</strong> 找到 1 个结果',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => '查询: <strong>%s</strong> 找到 %s 个结果'
             ]
         ],
         'nb' => [
@@ -17714,7 +17935,7 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => 'b44fd42286c16d9bd61fd1f279478e78',
-        'timestamp' => 1504247038
+        'checksum' => 'a9e7ae9231a43c37820228cbb9f5edd1',
+        'timestamp' => 1504378020
     ]
 ];

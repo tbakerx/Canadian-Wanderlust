@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/plugins/admin/admin.yaml',
-    'modified' => 1502892490,
+    'modified' => 1504377925,
     'data' => [
         'enabled' => true,
         'route' => '/admin',

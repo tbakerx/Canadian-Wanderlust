@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/system/languages/hu.yaml',
-    'modified' => 1502892490,
+    'modified' => 1502892524,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 cím: %1$s

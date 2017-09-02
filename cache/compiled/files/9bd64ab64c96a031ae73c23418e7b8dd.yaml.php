@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/system/config/media.yaml',
-    'modified' => 1502892490,
+    'modified' => 1502892524,
     'data' => [
         'types' => [
             'defaults' => [

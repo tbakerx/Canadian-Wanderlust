@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/plugins/form/blueprints.yaml',
-    'modified' => 1502892490,
+    'modified' => 1504377919,
     'data' => [
         'name' => 'Form',
-        'version' => '2.8.1',
+        'version' => '2.8.2',
         'description' => 'Enables the forms handling',
         'icon' => 'check-square',
         'author' => [

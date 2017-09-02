@@ -2,24 +2,23 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/config/system.yaml',
-    'modified' => 1502892490,
+    'modified' => 1504377925,
     'data' => [
-        'absolute_urls' => false,
         'home' => [
             'alias' => '/home'
         ],
         'pages' => [
-            'theme' => 'antimatter',
-            'markdown' => [
-                'extra' => false
-            ],
+            'theme' => 'deliver',
             'process' => [
                 'markdown' => true,
                 'twig' => false
+            ],
+            'markdown' => [
+                'extra' => false
             ]
         ],
         'cache' => [
-            'enabled' => true,
+            'enabled' => false,
             'check' => [
                 'method' => 'file'
             ],
@@ -39,20 +38,12 @@ return [
             'js_pipeline' => false,
             'js_minify' => true
         ],
-        'errors' => [
-            'display' => true,
-            'log' => true
-        ],
         'debugger' => [
             'enabled' => false,
             'twig' => true,
             'shutdown' => [
                 'close_connection' => true
             ]
-        ],
-        'gpm' => [
-            'releases' => 'stable',
-            'verify_peer' => true
         ]
     ]
 ];

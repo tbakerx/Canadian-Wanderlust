@@ -1,77 +1,105 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1504247097,
-    'checksum' => 'efbaa27dbcd96aa801da98985da8ffd4',
+    'timestamp' => 1504378041,
+    'checksum' => '6d2e6d89209da80992b051ca928b00b6',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1504247038
+                'modified' => 1504378019
+            ],
+            'plugins/email' => [
+                'file' => 'user/config/plugins/email.yaml',
+                'modified' => 1502892524
+            ],
+            'plugins/jscomments' => [
+                'file' => 'user/config/plugins/jscomments.yaml',
+                'modified' => 1502892524
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1504246708
+                'modified' => 1504377708
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1504247038
+                'modified' => 1504378019
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892524
             ]
         ],
         'user/plugins' => [
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892526
             ],
-            'plugins/markdown-notices' => [
-                'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1502892490
+            'plugins/feed' => [
+                'file' => 'user/plugins/feed/feed.yaml',
+                'modified' => 1502892526
+            ],
+            'plugins/taxonomylist' => [
+                'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
+                'modified' => 1502892530
+            ],
+            'plugins/breadcrumbs' => [
+                'file' => 'user/plugins/breadcrumbs/breadcrumbs.yaml',
+                'modified' => 1502892526
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377910
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377919
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892526
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1502892490
+                'modified' => 1502892528
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1502892490
+                'modified' => 1504377925
+            ],
+            'plugins/simplesearch' => [
+                'file' => 'user/plugins/simplesearch/simplesearch.yaml',
+                'modified' => 1502892530
+            ],
+            'plugins/relatedpages' => [
+                'file' => 'user/plugins/relatedpages/relatedpages.yaml',
+                'modified' => 1502892530
+            ],
+            'plugins/archives' => [
+                'file' => 'user/plugins/archives/archives.yaml',
+                'modified' => 1502892524
             ]
         ]
     ],
@@ -79,9 +107,9 @@ return [
         'plugins' => [
             'email' => [
                 'enabled' => true,
-                'from' => NULL,
+                'from' => 'your@email.here',
                 'from_name' => NULL,
-                'to' => NULL,
+                'to' => 'your@email.here',
                 'to_name' => NULL,
                 'mailer' => [
                     'engine' => 'mail',
@@ -99,15 +127,26 @@ return [
                 'content_type' => 'text/html',
                 'debug' => false
             ],
-            'markdown-notices' => [
+            'feed' => [
                 'enabled' => true,
+                'limit' => 10,
+                'description' => 'My Feed Description',
+                'lang' => 'en-us',
+                'length' => 500,
+                'enable_json_feed' => false
+            ],
+            'taxonomylist' => [
+                'enabled' => true,
+                'route' => '/blog'
+            ],
+            'breadcrumbs' => [
+                'enabled' => true,
+                'show_all' => true,
                 'built_in_css' => true,
-                'level_classes' => [
-                    0 => 'yellow',
-                    1 => 'red',
-                    2 => 'blue',
-                    3 => 'green'
-                ]
+                'include_home' => true,
+                'icon_home' => '',
+                'icon_divider_classes' => 'fa fa-angle-right',
+                'link_trailing' => false
             ],
             'login' => [
                 'enabled' => true,
@@ -233,6 +272,119 @@ return [
                         'daily' => 30,
                         'monthly' => 12,
                         'visitors' => 20
+                    ]
+                ]
+            ],
+            'simplesearch' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'display_button' => false,
+                'min_query_length' => 3,
+                'route' => '/search',
+                'search_content' => 'rendered',
+                'template' => 'simplesearch_results',
+                'filters' => [
+                    'category' => 'blog'
+                ],
+                'filter_combinator' => 'and',
+                'ignore_accented_characters' => false,
+                'order' => [
+                    'by' => 'date',
+                    'dir' => 'desc'
+                ]
+            ],
+            'relatedpages' => [
+                'enabled' => true,
+                'limit' => 5,
+                'show_score' => true,
+                'score_threshold' => 20,
+                'filter' => [
+                    'items' => [
+                        '@page' => '/blog'
+                    ],
+                    'order' => [
+                        'by' => 'date',
+                        'dir' => 'desc'
+                    ]
+                ],
+                'page_in_filter' => true,
+                'explicit_pages' => [
+                    'process' => true,
+                    'score' => 100
+                ],
+                'taxonomy_match' => [
+                    'taxonomy' => 'tag',
+                    'taxonomy_taxonomy' => [
+                        'process' => true,
+                        'score_scale' => [
+                            1 => 50,
+                            2 => 75,
+                            3 => 100
+                        ]
+                    ],
+                    'taxonomy_content' => [
+                        'process' => true,
+                        'score_scale' => [
+                            1 => 20,
+                            2 => 30,
+                            3 => 45,
+                            4 => 60,
+                            5 => 70,
+                            6 => 80,
+                            7 => 90,
+                            8 => 100
+                        ]
+                    ]
+                ],
+                'content_match' => [
+                    'process' => false
+                ]
+            ],
+            'archives' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'date_display_format' => 'F Y',
+                'show_count' => true,
+                'limit' => 12,
+                'order' => [
+                    'by' => 'date',
+                    'dir' => 'desc'
+                ],
+                'filter_combinator' => 'and',
+                'filters' => [
+                    'category' => 'blog'
+                ],
+                'taxonomy_names' => [
+                    'month' => 'archives_month',
+                    'year' => 'archives_year'
+                ]
+            ],
+            'jscomments' => [
+                'enabled' => false,
+                'provider' => '',
+                'providers' => [
+                    'disqus' => [
+                        'shortname' => ''
+                    ],
+                    'intensedebate' => [
+                        'acct' => ''
+                    ],
+                    'facebook' => [
+                        'appId' => '',
+                        'lang' => 'en_US',
+                        'numposts' => 5,
+                        'colorscheme' => 'light',
+                        'width' => '100%'
+                    ],
+                    'muut' => [
+                        'forum' => '',
+                        'channel' => 'General',
+                        'show_online' => false,
+                        'show_title' => false,
+                        'upload' => false,
+                        'share' => true,
+                        'widget' => false,
+                        'lang' => 'en'
                     ]
                 ]
             ]
@@ -504,18 +656,19 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Deliver',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'John Appleseed',
+                'email' => 'john@email.com',
+                'copyright' => 'Copyright 2013 Deliver. All Rights Reserved.'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'My Deliver Site'
             ],
             'summary' => [
                 'enabled' => true,
@@ -524,9 +677,101 @@ return [
                 'delimiter' => '==='
             ],
             'redirects' => NULL,
-            'routes' => NULL,
+            'routes' => [
+                '/something/else' => '/blog/sample-3',
+                '/another/one/here' => '/blog/sample-3',
+                '/new/*' => '/blog/*'
+            ],
             'blog' => [
                 'route' => '/blog'
+            ],
+            'social' => [
+                0 => [
+                    'url' => 'https://twitter.com/getgrav',
+                    'icon' => 'twitter'
+                ],
+                1 => [
+                    'url' => '#',
+                    'icon' => 'facebook'
+                ],
+                2 => [
+                    'url' => 'blog.rss',
+                    'icon' => 'rss'
+                ]
+            ],
+            'contact' => [
+                'address' => [
+                    0 => [
+                        'line' => '222 Ave C South'
+                    ],
+                    1 => [
+                        'line' => 'Saskatoon, Saskatchewan'
+                    ],
+                    2 => [
+                        'line' => 'Canada S7K 2N5'
+                    ]
+                ],
+                'gps' => '1.306.222.3456'
+            ],
+            'othermenu' => [
+                0 => [
+                    'text' => 'About',
+                    'url' => 'about'
+                ],
+                1 => [
+                    'text' => 'Privacy Policy',
+                    'url' => '#'
+                ],
+                2 => [
+                    'text' => 'Contact',
+                    'url' => 'contact'
+                ]
+            ],
+            'quicklinks' => [
+                0 => [
+                    'text' => 'Portfolio',
+                    'url' => 'base_url:portfolio'
+                ],
+                1 => [
+                    'text' => 'About',
+                    'url' => 'base_url:about'
+                ],
+                2 => [
+                    'text' => 'Services',
+                    'url' => 'base_url:services'
+                ],
+                3 => [
+                    'text' => 'Archive',
+                    'url' => 'base_url:archive'
+                ],
+                4 => [
+                    'text' => 'Blog',
+                    'url' => 'base_url:blog'
+                ],
+                5 => [
+                    'text' => 'Contact Us',
+                    'url' => 'base_url:contact'
+                ]
+            ],
+            'header_options' => [
+                'arrows' => 'true',
+                'autoslide' => 'false',
+                'autoslideHoverStop' => 'false',
+                'interval' => '2000',
+                'loop' => 'false',
+                'transition' => 'zoom',
+                'itemsForSlide' => '0',
+                'touch' => 'true',
+                'swipe' => 'true'
+            ],
+            'footer' => [
+                'description' => 'Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
+                'contact_title' => 'Contact Info',
+                'links_title' => 'Quick Links',
+                'newsletter_title' => 'Newsletter',
+                'newsletter_description' => 'Etiam porta sem malesuada magna mollis euismod.',
+                'copyright_text' => 'Copyright 2013 Deliver. All Rights Reserved.',
+                'feedburner' => ''
             ]
         ],
         'streams' => [
@@ -579,7 +824,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'antimatter',
+                'theme' => 'deliver',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -649,7 +894,7 @@ return [
                 ]
             ],
             'cache' => [
-                'enabled' => true,
+                'enabled' => false,
                 'check' => [
                     'method' => 'file'
                 ],
@@ -690,7 +935,7 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => 0,
                 'log' => true
             ],
             'debugger' => [
@@ -736,7 +981,7 @@ return [
             ]
         ],
         'security' => [
-            'salt' => 'q6bMS2k4Vp7lg1'
+            'salt' => 'iYFJxqj8URt1ly'
         ]
     ]
 ];

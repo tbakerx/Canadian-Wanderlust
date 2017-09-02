@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/plugins/login/languages.yaml',
-    'modified' => 1502892490,
+    'modified' => 1504377910,
     'data' => [
         'en' => [
             'PLUGIN_LOGIN' => [

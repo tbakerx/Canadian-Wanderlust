@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/plugins/login/blueprints.yaml',
-    'modified' => 1502892490,
+    'modified' => 1504377910,
     'data' => [
         'name' => 'Login',
         'version' => '2.3.2',

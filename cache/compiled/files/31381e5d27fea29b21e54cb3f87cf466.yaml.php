@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/plugins/admin/languages/pl.yaml',
-    'modified' => 1502892490,
+    'modified' => 1504377925,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'To jest wersja Beta! Używasz tego w produkcji na własne ryzyko...',

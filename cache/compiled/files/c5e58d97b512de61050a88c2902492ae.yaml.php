@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/plugins/login/login.yaml',
-    'modified' => 1502892490,
+    'modified' => 1504377910,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
