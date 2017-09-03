@@ -27,7 +27,7 @@ class __TwigTemplate_41c8ee7332b277d6f72c5e2000f776877a97390170a687d29f5abf0975b
             echo "       <div class=\"modular-row showcase flush-top\" ";
             if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), $this->getAttribute($context["slide"], "image", array()), array(), "array")) {
                 echo "style=\"background-image: url(";
-                echo $this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), $this->getAttribute($context["slide"], "image", array()), array(), "array"), "url", array());
+                echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), $this->getAttribute($context["slide"], "image", array()), array(), "array"), "brightness", array(0 =>  -50), "method"), "url", array());
                 echo ");\"";
             }
             echo ">
@@ -133,7 +133,7 @@ class __TwigTemplate_41c8ee7332b277d6f72c5e2000f776877a97390170a687d29f5abf0975b
         return new Twig_Source("<div id=\"content-slide\">
   <div class=\"slideme\">
     {% for slide in page.header.slides %}
-       <div class=\"modular-row showcase flush-top\" {% if page.media[slide.image] %}style=\"background-image: url({{ page.media[slide.image].url }});\"{% endif %}>
+       <div class=\"modular-row showcase flush-top\" {% if page.media[slide.image] %}style=\"background-image: url({{ page.media[slide.image].brightness(-50).url }});\"{% endif %}>
           <h1>{{ slide.heading }}</h1>
           <h2>{{ slide.subheading }}</h2>
           <a class=\"button\" href=\"{{ slide.button_url }}\">{{ slide.button_text }}</a>
