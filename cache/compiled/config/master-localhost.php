@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1504393266,
-    'checksum' => '016e97ce70a9553dd3ff29cdc7ed0c34',
+    'timestamp' => 1504399495,
+    'checksum' => 'c2abc89c7de09d1f4edfe63f0e30abd5',
     'files' => [
         'user/config' => [
             'media' => [
@@ -23,7 +23,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1502892524
+                'modified' => 1504399479
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1504393263
+                'modified' => 1504399495
             ]
         ],
         'system/config' => [
@@ -656,11 +656,11 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Deliver',
+            'title' => 'Canadian Wanderlust',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'John Appleseed',
-                'email' => 'john@email.com',
+                'name' => 'Tim Baker',
+                'email' => 'timbaker@canadianwanderlust.com',
                 'copyright' => 'Copyright 2013 Deliver. All Rights Reserved.'
             ],
             'taxonomies' => [
@@ -668,7 +668,7 @@ return [
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'My Deliver Site'
+                'description' => 'Canadian Wanderlust is our travel blog site for our travels through southeast asia'
             ],
             'summary' => [
                 'enabled' => true,
@@ -874,7 +874,7 @@ return [
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 301,
+                'redirect_default_code' => '301',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -935,7 +935,7 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => 0,
+                'display' => '0',
                 'log' => true
             ],
             'debugger' => [

@@ -2,13 +2,35 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/config/site.yaml',
-    'modified' => 1502892524,
+    'modified' => 1504399479,
     'data' => [
-        'title' => 'Deliver',
+        'title' => 'Canadian Wanderlust',
+        'default_lang' => 'en',
         'author' => [
-            'name' => 'John Appleseed',
-            'email' => 'john@email.com',
+            'name' => 'Tim Baker',
+            'email' => 'timbaker@canadianwanderlust.com',
             'copyright' => 'Copyright 2013 Deliver. All Rights Reserved.'
+        ],
+        'taxonomies' => [
+            0 => 'category',
+            1 => 'tag'
+        ],
+        'metadata' => [
+            'description' => 'Canadian Wanderlust is our travel blog site for our travels through southeast asia'
+        ],
+        'summary' => [
+            'enabled' => true,
+            'format' => 'short',
+            'size' => 300,
+            'delimiter' => '==='
+        ],
+        'routes' => [
+            '/something/else' => '/blog/sample-3',
+            '/another/one/here' => '/blog/sample-3',
+            '/new/*' => '/blog/*'
+        ],
+        'blog' => [
+            'route' => '/blog'
         ],
         'social' => [
             0 => [
@@ -77,24 +99,6 @@ return [
                 'text' => 'Contact Us',
                 'url' => 'base_url:contact'
             ]
-        ],
-        'taxonomies' => [
-            0 => 'category',
-            1 => 'tag'
-        ],
-        'blog' => [
-            'route' => '/blog'
-        ],
-        'metadata' => [
-            'description' => 'My Deliver Site'
-        ],
-        'summary' => [
-            'size' => 300
-        ],
-        'routes' => [
-            '/something/else' => '/blog/sample-3',
-            '/another/one/here' => '/blog/sample-3',
-            '/new/*' => '/blog/*'
         ],
         'header_options' => [
             'arrows' => 'true',
