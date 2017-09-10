@@ -120,10 +120,10 @@ class __TwigTemplate_a8a159480618ed0d0ebc3e2209ce2d87e0dd08c0ed190c6690bb3ce0322
         // line 35
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "footer", array()), "feedburner", array());
         echo "', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true\" class=\"newsletter\">
-        <input type=\"text\" name=\"email\" value=\"Email\" onclick=\"if(this.value=='Email')this.value='';\" onblur=\"if(this.value=='')this.value='Email';\"/>
+                            <!-- <input type=\"text\" name=\"email\" value=\"Email\" onclick=\"if(this.value=='Email')this.value='';\" onblur=\"if(this.value=='')this.value='Email';\"/> -->
         <input type=\"hidden\" value=\"karolorzel\" name=\"uri\"/>
         <input type=\"hidden\" name=\"loc\" value=\"en_US\"/>
-        <input type=\"submit\" value=\"OK\" />
+                                                          <!-- <input type=\"submit\" value=\"OK\" /> -->
         </form>
     </div>
 </div>
@@ -157,7 +157,8 @@ class __TwigTemplate_a8a159480618ed0d0ebc3e2209ce2d87e0dd08c0ed190c6690bb3ce0322
         echo "    </ul>
     </div>
 </div>
-</div>";
+</div>
+";
     }
 
     // line 6
@@ -182,7 +183,7 @@ class __TwigTemplate_a8a159480618ed0d0ebc3e2209ce2d87e0dd08c0ed190c6690bb3ce0322
 
     public function getDebugInfo()
     {
-        return array (  170 => 8,  167 => 7,  164 => 6,  157 => 53,  146 => 51,  142 => 50,  135 => 46,  121 => 35,  116 => 33,  112 => 32,  107 => 29,  90 => 27,  86 => 26,  81 => 24,  76 => 22,  72 => 21,  69 => 20,  60 => 18,  56 => 17,  51 => 15,  48 => 14,  42 => 12,  40 => 11,  36 => 9,  34 => 6,  28 => 5,  20 => 1,);
+        return array (  171 => 8,  168 => 7,  165 => 6,  157 => 53,  146 => 51,  142 => 50,  135 => 46,  121 => 35,  116 => 33,  112 => 32,  107 => 29,  90 => 27,  86 => 26,  81 => 24,  76 => 22,  72 => 21,  69 => 20,  60 => 18,  56 => 17,  51 => 15,  48 => 14,  42 => 12,  40 => 11,  36 => 9,  34 => 6,  28 => 5,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -230,10 +231,10 @@ class __TwigTemplate_a8a159480618ed0d0ebc3e2209ce2d87e0dd08c0ed190c6690bb3ce0322
         <p>{{ site.footer.newsletter_description }}</p>
 
         <form action=\"https://feedburner.google.com/fb/a/mailverify\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('https://feedburner.google.com/fb/a/mailverify?uri={{ site.footer.feedburner }}', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true\" class=\"newsletter\">
-        <input type=\"text\" name=\"email\" value=\"Email\" onclick=\"if(this.value=='Email')this.value='';\" onblur=\"if(this.value=='')this.value='Email';\"/>
+                            <!-- <input type=\"text\" name=\"email\" value=\"Email\" onclick=\"if(this.value=='Email')this.value='';\" onblur=\"if(this.value=='')this.value='Email';\"/> -->
         <input type=\"hidden\" value=\"karolorzel\" name=\"uri\"/>
         <input type=\"hidden\" name=\"loc\" value=\"en_US\"/>
-        <input type=\"submit\" value=\"OK\" />
+                                                          <!-- <input type=\"submit\" value=\"OK\" /> -->
         </form>
     </div>
 </div>
@@ -250,6 +251,7 @@ class __TwigTemplate_a8a159480618ed0d0ebc3e2209ce2d87e0dd08c0ed190c6690bb3ce0322
     </ul>
     </div>
 </div>
-</div>", "modular/footer.html.twig", "/home/timbaker/Documents/dev/CanadianWanderlust/user/themes/deliver/templates/modular/footer.html.twig");
+</div>
+", "modular/footer.html.twig", "/home/timbaker/Documents/dev/CanadianWanderlust/user/themes/deliver/templates/modular/footer.html.twig");
     }
 }

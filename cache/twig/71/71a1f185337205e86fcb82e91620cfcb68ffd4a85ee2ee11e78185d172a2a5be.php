@@ -52,51 +52,56 @@ class __TwigTemplate_2ba8dc84700eba7ab4cf470ba425fc3678934625508ba2e389f1b06bc78
 ";
         }
         // line 19
-        echo "<div class=\"sidebar-content\">
-\t<h4>Some Text Widget</h4>
-\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-</div>
+        echo "            <!-- <div class=\"sidebar-content\">
+            \t<h4>Some Text Widget</h4>
+            \t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            </div>  -->
+
 ";
-        // line 23
+        // line 24
         if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "taxonomylist", array()), "enabled", array())) {
-            // line 24
+            // line 25
             echo "<div class=\"sidebar-content\">
     <h4>Popular Tags</h4>
     ";
-            // line 26
-            $this->loadTemplate("partials/taxonomylist.html.twig", "partials/sidebar.html.twig", 26)->display(array_merge($context, array("taxonomy" => "tag")));
             // line 27
+            $this->loadTemplate("partials/taxonomylist.html.twig", "partials/sidebar.html.twig", 27)->display(array_merge($context, array("taxonomy" => "tag")));
+            // line 28
             echo "</div>
 ";
         }
-        // line 29
+        // line 30
         if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "archives", array()), "enabled", array())) {
-            // line 30
+            // line 31
             echo "<div class=\"sidebar-content\">
     <h4>Archives</h4>
 \t";
-            // line 32
-            $this->loadTemplate("partials/archives.html.twig", "partials/sidebar.html.twig", 32)->display($context);
             // line 33
+            $this->loadTemplate("partials/archives.html.twig", "partials/sidebar.html.twig", 33)->display($context);
+            // line 34
             echo "</div>
 ";
         }
-        // line 35
+        // line 36
+        echo "          <!--";
         if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "feed", array()), "enabled", array())) {
-            // line 36
-            echo "<div class=\"sidebar-content syndicate\">
-    <h4>Syndicate</h4>
-    <a class=\"button\" href=\"";
-            // line 38
-            echo ($context["feed_url"] ?? null);
-            echo ".atom\"><i class=\"fa fa-rss-square\"></i> Atom 1.0</a>
-    <a class=\"button\" href=\"";
+            // line 37
+            echo "          <div class=\"sidebar-content syndicate\">
+              <h4>Syndicate</h4>
+              <a class=\"button\" href=\"";
             // line 39
             echo ($context["feed_url"] ?? null);
+            echo ".atom\"><i class=\"fa fa-rss-square\"></i> Atom 1.0</a>
+              <a class=\"button\" href=\"";
+            // line 40
+            echo ($context["feed_url"] ?? null);
             echo ".rss\"><i class=\"fa fa-rss-square\"></i> RSS</a>
-</div>
-";
+          </div>
+          ";
         }
+        // line 42
+        echo "  -->
+";
     }
 
     public function getTemplateName()
@@ -111,7 +116,7 @@ class __TwigTemplate_2ba8dc84700eba7ab4cf470ba425fc3678934625508ba2e389f1b06bc78
 
     public function getDebugInfo()
     {
-        return array (  95 => 39,  91 => 38,  87 => 36,  85 => 35,  81 => 33,  79 => 32,  75 => 30,  73 => 29,  69 => 27,  67 => 26,  63 => 24,  61 => 23,  55 => 19,  49 => 16,  45 => 14,  43 => 13,  39 => 11,  37 => 10,  33 => 8,  31 => 7,  27 => 5,  25 => 4,  21 => 2,  19 => 1,);
+        return array (  103 => 42,  97 => 40,  93 => 39,  89 => 37,  86 => 36,  82 => 34,  80 => 33,  76 => 31,  74 => 30,  70 => 28,  68 => 27,  64 => 25,  62 => 24,  55 => 19,  49 => 16,  45 => 14,  43 => 13,  39 => 11,  37 => 10,  33 => 8,  31 => 7,  27 => 5,  25 => 4,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -142,10 +147,11 @@ class __TwigTemplate_2ba8dc84700eba7ab4cf470ba425fc3678934625508ba2e389f1b06bc78
 \t<a class=\"button\" href=\"{{ base_url_relative }}/random\"><i class=\"fa fa-retweet\"></i> I'm Feeling Lucky!</a>
 </div>
 {% endif %}
-<div class=\"sidebar-content\">
-\t<h4>Some Text Widget</h4>
-\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-</div>
+            <!-- <div class=\"sidebar-content\">
+            \t<h4>Some Text Widget</h4>
+            \t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            </div>  -->
+
 {% if config.plugins.taxonomylist.enabled %}
 <div class=\"sidebar-content\">
     <h4>Popular Tags</h4>
@@ -158,12 +164,13 @@ class __TwigTemplate_2ba8dc84700eba7ab4cf470ba425fc3678934625508ba2e389f1b06bc78
 \t{% include 'partials/archives.html.twig' %}
 </div>
 {% endif %}
-{% if config.plugins.feed.enabled %}
-<div class=\"sidebar-content syndicate\">
-    <h4>Syndicate</h4>
-    <a class=\"button\" href=\"{{ feed_url }}.atom\"><i class=\"fa fa-rss-square\"></i> Atom 1.0</a>
-    <a class=\"button\" href=\"{{ feed_url }}.rss\"><i class=\"fa fa-rss-square\"></i> RSS</a>
-</div>
-{% endif %}", "partials/sidebar.html.twig", "/home/timbaker/Documents/dev/CanadianWanderlust/user/themes/deliver/templates/partials/sidebar.html.twig");
+          <!--{% if config.plugins.feed.enabled %}
+          <div class=\"sidebar-content syndicate\">
+              <h4>Syndicate</h4>
+              <a class=\"button\" href=\"{{ feed_url }}.atom\"><i class=\"fa fa-rss-square\"></i> Atom 1.0</a>
+              <a class=\"button\" href=\"{{ feed_url }}.rss\"><i class=\"fa fa-rss-square\"></i> RSS</a>
+          </div>
+          {% endif %}  -->
+", "partials/sidebar.html.twig", "/home/timbaker/Documents/dev/CanadianWanderlust/user/themes/deliver/templates/partials/sidebar.html.twig");
     }
 }
