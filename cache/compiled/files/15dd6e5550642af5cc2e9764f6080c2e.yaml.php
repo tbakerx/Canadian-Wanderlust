@@ -2,14 +2,14 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/config/site.yaml',
-    'modified' => 1504399479,
+    'modified' => 1505056948,
     'data' => [
         'title' => 'Canadian Wanderlust',
         'default_lang' => 'en',
         'author' => [
             'name' => 'Tim Baker',
             'email' => 'timbaker@canadianwanderlust.com',
-            'copyright' => 'Copyright 2013 Deliver. All Rights Reserved.'
+            'copyright' => 'Copyright 2017 Canadian Wanderlust. All Rights Reserved.'
         ],
         'taxonomies' => [
             0 => 'category',
@@ -49,59 +49,34 @@ return [
         'contact' => [
             'address' => [
                 0 => [
-                    'line' => '222 Ave C South'
-                ],
-                1 => [
-                    'line' => 'Saskatoon, Saskatchewan'
-                ],
-                2 => [
-                    'line' => 'Canada S7K 2N5'
+                    'line' => 'Address:     This changes almost daily ;)'
                 ]
-            ],
-            'gps' => '1.306.222.3456'
-        ],
-        'othermenu' => [
-            0 => [
-                'text' => 'About',
-                'url' => 'about'
-            ],
-            1 => [
-                'text' => 'Privacy Policy',
-                'url' => '#'
-            ],
-            2 => [
-                'text' => 'Contact',
-                'url' => 'contact'
             ]
         ],
         'quicklinks' => [
             0 => [
-                'text' => 'Portfolio',
-                'url' => 'base_url:portfolio'
+                'text' => 'Home',
+                'url' => 'base_url:home'
             ],
             1 => [
-                'text' => 'About',
-                'url' => 'base_url:about'
-            ],
-            2 => [
-                'text' => 'Services',
-                'url' => 'base_url:services'
-            ],
-            3 => [
-                'text' => 'Archive',
-                'url' => 'base_url:archive'
-            ],
-            4 => [
                 'text' => 'Blog',
                 'url' => 'base_url:blog'
             ],
-            5 => [
+            2 => [
+                'text' => 'Articles',
+                'url' => 'base_url:articles'
+            ],
+            3 => [
+                'text' => 'Reviews',
+                'url' => 'base_url:reviews'
+            ],
+            4 => [
                 'text' => 'Contact Us',
                 'url' => 'base_url:contact'
             ]
         ],
         'header_options' => [
-            'arrows' => 'true',
+            'arrows' => 'false',
             'autoslide' => 'false',
             'autoslideHoverStop' => 'false',
             'interval' => '2000',
@@ -112,12 +87,12 @@ return [
             'swipe' => 'true'
         ],
         'footer' => [
-            'description' => 'Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
+            'description' => 'This is our blog site where we hope to share our experience with our friends and family back home in Canada and anyone who is willing to give it a read! If you dont know us already, feel free to send us an email and say hello!',
             'contact_title' => 'Contact Info',
             'links_title' => 'Quick Links',
             'newsletter_title' => 'Newsletter',
-            'newsletter_description' => 'Etiam porta sem malesuada magna mollis euismod.',
-            'copyright_text' => 'Copyright 2013 Deliver. All Rights Reserved.',
+            'newsletter_description' => 'Coming Soon!',
+            'copyright_text' => 'Copyright 2017 Canadian Wanderlust. All Rights Reserved.',
             'feedburner' => ''
         ]
     ]
