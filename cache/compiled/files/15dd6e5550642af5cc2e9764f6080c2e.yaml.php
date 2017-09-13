@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/config/site.yaml',
-    'modified' => 1505056948,
+    'modified' => 1505280961,
     'data' => [
         'title' => 'Canadian Wanderlust',
         'default_lang' => 'en',
