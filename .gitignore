@@ -4,6 +4,7 @@ composer.lock
 cache/*
 assets/*
 *.log
+popularity/*
 images/*
 user/data/*
 user/accounts/*
