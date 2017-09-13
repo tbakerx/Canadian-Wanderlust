@@ -3,7 +3,7 @@
 composer.lock
 cache/*
 assets/*
-logs/*
+*.log
 images/*
 user/data/*
 user/accounts/*
