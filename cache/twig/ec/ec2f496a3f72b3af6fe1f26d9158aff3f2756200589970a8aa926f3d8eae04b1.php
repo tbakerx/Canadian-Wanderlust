@@ -216,7 +216,7 @@ class __TwigTemplate_b6887a52f45e34f4f5e27d681fdbafdbda90c096b9e49a3a7b985d55478
         // line 50
         echo "        <header id=\"header\">
                 <div class=\"logo\">
-                    <h3><a href=\"";
+                  <h3><a href=\"";
         // line 52
         echo ($context["base_url_absolute"] ?? null);
         echo "\">";
@@ -405,7 +405,7 @@ class __TwigTemplate_b6887a52f45e34f4f5e27d681fdbafdbda90c096b9e49a3a7b985d55478
         {% block header %}
         <header id=\"header\">
                 <div class=\"logo\">
-                    <h3><a href=\"{{ base_url_absolute }}\">{{ config.site.title }}</a></h3>
+                  <h3><a href=\"{{ base_url_absolute }}\">{{ config.site.title }}</a></h3>
                     {% block social %}
                         {% include 'partials/social.html.twig' %}
                     {% endblock %}
