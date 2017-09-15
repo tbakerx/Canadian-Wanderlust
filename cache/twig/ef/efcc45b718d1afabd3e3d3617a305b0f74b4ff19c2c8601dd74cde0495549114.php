@@ -27,20 +27,21 @@ class __TwigTemplate_41c8ee7332b277d6f72c5e2000f776877a97390170a687d29f5abf0975b
             echo "       <div class=\"modular-row showcase flush-top\" ";
             if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), $this->getAttribute($context["slide"], "image", array()), array(), "array")) {
                 echo "style=\"background-image: url(";
-                echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), $this->getAttribute($context["slide"], "image", array()), array(), "array"), "brightness", array(0 =>  -50), "method"), "url", array());
+                echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), $this->getAttribute($context["slide"], "image", array()), array(), "array"), "brightness", array(0 =>  -75), "method"), "url", array());
                 echo ");\"";
             }
             echo ">
+          <div><img src=\"user/themes/deliver/images/logoWhite.png\"></img></div>
           <h1>";
-            // line 5
+            // line 6
             echo $this->getAttribute($context["slide"], "heading", array());
             echo "</h1>
           <h2>";
-            // line 6
+            // line 7
             echo $this->getAttribute($context["slide"], "subheading", array());
             echo "</h2>
           <a class=\"button\" href=\"";
-            // line 7
+            // line 8
             echo $this->getAttribute($context["slide"], "button_url", array());
             echo "\">";
             echo $this->getAttribute($context["slide"], "button_text", array());
@@ -51,52 +52,52 @@ class __TwigTemplate_41c8ee7332b277d6f72c5e2000f776877a97390170a687d29f5abf0975b
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['slide'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 10
+        // line 11
         echo "</div>
 </div>
 
 ";
-        // line 13
+        // line 14
         echo ($context["content"] ?? null);
         echo "
 
 <script type=\"text/javascript\">
 \$('#content-slide').slideme({
   arrows: ";
-        // line 17
+        // line 18
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "header_options", array()), "arrows", array());
         echo ",
   autoslide: ";
-        // line 18
+        // line 19
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "header_options", array()), "autoslide", array());
         echo ",
   autoslideHoverStop: ";
-        // line 19
+        // line 20
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "header_options", array()), "autoslideHoverStop", array());
         echo ",
   interval: ";
-        // line 20
+        // line 21
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "header_options", array()), "interval", array());
         echo ",
   loop: ";
-        // line 21
+        // line 22
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "header_options", array()), "loop", array());
         echo ",
   pagination: \"numbers\",
   transition : '";
-        // line 23
+        // line 24
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "header_options", array()), "transition", array());
         echo "',
   itemsForSlide: ";
-        // line 24
+        // line 25
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "header_options", array()), "itemsForSlide", array());
         echo ",
   touch: ";
-        // line 25
+        // line 26
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "header_options", array()), "touch", array());
         echo ",
   swipe: ";
-        // line 26
+        // line 27
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "header_options", array()), "swipe", array());
         echo ",
 
@@ -117,7 +118,7 @@ class __TwigTemplate_41c8ee7332b277d6f72c5e2000f776877a97390170a687d29f5abf0975b
 
     public function getDebugInfo()
     {
-        return array (  100 => 26,  96 => 25,  92 => 24,  88 => 23,  83 => 21,  79 => 20,  75 => 19,  71 => 18,  67 => 17,  60 => 13,  55 => 10,  44 => 7,  40 => 6,  36 => 5,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  101 => 27,  97 => 26,  93 => 25,  89 => 24,  84 => 22,  80 => 21,  76 => 20,  72 => 19,  68 => 18,  61 => 14,  56 => 11,  45 => 8,  41 => 7,  37 => 6,  27 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -133,7 +134,8 @@ class __TwigTemplate_41c8ee7332b277d6f72c5e2000f776877a97390170a687d29f5abf0975b
         return new Twig_Source("<div id=\"content-slide\">
   <div class=\"slideme\">
     {% for slide in page.header.slides %}
-       <div class=\"modular-row showcase flush-top\" {% if page.media[slide.image] %}style=\"background-image: url({{ page.media[slide.image].brightness(-50).url }});\"{% endif %}>
+       <div class=\"modular-row showcase flush-top\" {% if page.media[slide.image] %}style=\"background-image: url({{ page.media[slide.image].brightness(-75).url }});\"{% endif %}>
+          <div><img src=\"user/themes/deliver/images/logoWhite.png\"></img></div>
           <h1>{{ slide.heading }}</h1>
           <h2>{{ slide.subheading }}</h2>
           <a class=\"button\" href=\"{{ slide.button_url }}\">{{ slide.button_text }}</a>

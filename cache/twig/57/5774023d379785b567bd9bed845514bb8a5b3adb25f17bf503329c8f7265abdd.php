@@ -45,7 +45,9 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
     public function block_field($context, array $blocks = array())
     {
         // line 8
-        echo "    <div class=\"form-field ";
+        echo "    <div class=\"";
+        echo ((($context["form_field_outer_classes"] ?? null)) ? (($context["form_field_outer_classes"] ?? null)) : ("form-field"));
+        echo " ";
         echo $this->getAttribute(($context["field"] ?? null), "outerclasses", array());
         echo " ";
         if (($context["errors"] ?? null)) {
@@ -57,7 +59,7 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
         ";
         // line 9
         $this->displayBlock('contents', $context, $blocks);
-        // line 75
+        // line 80
         echo "    </div>
 ";
     }
@@ -74,11 +76,15 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
         echo "            ";
         if ( !($this->getAttribute(($context["field"] ?? null), "label", array()) === false)) {
             // line 11
-            echo "                <div class=\"form-label ";
+            echo "                <div class=\"";
+            echo ((($context["form_field_outer_label_classes"] ?? null)) ? (($context["form_field_outer_label_classes"] ?? null)) : ("form-label"));
+            echo " ";
             echo $this->getAttribute(($context["field"] ?? null), "labelclasses", array());
             echo "\">
-                    <label class=\"inline\" ";
+                    <label class=\"";
             // line 12
+            echo ((($context["form_field_label_classes"] ?? null)) ? (($context["form_field_label_classes"] ?? null)) : ("inline"));
+            echo "\" ";
             if ($this->getAttribute(($context["field"] ?? null), "id", array(), "any", true, true)) {
                 echo "for=\"";
                 echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "id", array()));
@@ -94,7 +100,9 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
             ";
         }
         // line 24
-        echo "            <div class=\"form-data ";
+        echo "            <div class=\"";
+        echo ((($context["form_field_outer_data_classes"] ?? null)) ? (($context["form_field_outer_data_classes"] ?? null)) : ("form-data"));
+        echo " ";
         echo $this->getAttribute(($context["field"] ?? null), "dataclasses", array());
         echo "\"
                 ";
@@ -105,23 +113,23 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
                 ";
         // line 31
         $this->displayBlock('group', $context, $blocks);
-        // line 67
+        // line 72
         echo "                ";
         if ($this->getAttribute(($context["field"] ?? null), "description", array())) {
-            // line 68
+            // line 73
             echo "                    <div class=\"form-extra-wrapper ";
             echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "size", array()));
             echo " ";
             echo $this->getAttribute(($context["field"] ?? null), "wrapper_classes", array());
             echo "\">
                         <span class=\"form-description\">";
-            // line 69
+            // line 74
             echo $this->getAttribute(($context["field"] ?? null), "description", array());
             echo "</span>
                     </div>
                 ";
         }
-        // line 72
+        // line 77
         echo "
             </div>
         ";
@@ -178,7 +186,7 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
         // line 32
         echo "                    ";
         $this->displayBlock('input', $context, $blocks);
-        // line 66
+        // line 71
         echo "                ";
     }
 
@@ -186,7 +194,9 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
     public function block_input($context, array $blocks = array())
     {
         // line 33
-        echo "                        <div class=\"form-input-wrapper ";
+        echo "                        <div class=\"";
+        echo ((($context["form_field_wrapper_classes"] ?? null)) ? (($context["form_field_wrapper_classes"] ?? null)) : ("form-input-wrapper"));
+        echo " ";
         echo $this->getAttribute(($context["field"] ?? null), "size", array());
         echo " ";
         echo $this->getAttribute(($context["field"] ?? null), "wrapper_classes", array());
@@ -209,22 +219,24 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
         // line 40
         echo "                                ";
         $this->displayBlock('input_attributes', $context, $blocks);
-        // line 55
+        // line 60
         echo "                            />
                             ";
-        // line 56
+        // line 61
         $this->displayBlock('append', $context, $blocks);
-        // line 57
+        // line 62
         echo "                            ";
         if (($this->getAttribute(($context["form"] ?? null), "inline_errors", array()) && ($context["errors"] ?? null))) {
-            // line 58
-            echo "                                <div class=\"form-errors\">
+            // line 63
+            echo "                                <div class=\"";
+            echo ((($context["form_errors_classes"] ?? null)) ? (($context["form_errors_classes"] ?? null)) : ("form-errors"));
+            echo "\">
                                     ";
-            // line 59
+            // line 64
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(($context["errors"] ?? null));
             foreach ($context['_seq'] as $context["_key"] => $context["error"]) {
-                // line 60
+                // line 65
                 echo "                                        <p class=\"form-message\"><i class=\"fa fa-exclamation-circle\"></i> ";
                 echo $context["error"];
                 echo "</p>
@@ -233,11 +245,11 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['error'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 62
+            // line 67
             echo "                                </div>
                             ";
         }
-        // line 64
+        // line 69
         echo "                        </div>
                     ";
     }
@@ -307,34 +319,56 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
         }
         // line 50
         echo "                                    ";
+        if ($this->getAttribute(($context["field"] ?? null), "attributes", array(), "any", true, true)) {
+            // line 51
+            echo "                                      ";
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["field"] ?? null), "attributes", array()));
+            foreach ($context['_seq'] as $context["_key"] => $context["attribute"]) {
+                // line 52
+                echo "                                          ";
+                echo $this->getAttribute($context["attribute"], "name", array());
+                echo "=\"";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["attribute"], "value", array()));
+                echo "\"
+                                      ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['attribute'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 54
+            echo "                                    ";
+        }
+        // line 55
+        echo "                                    ";
         if (twig_in_filter($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", array()), "required", array()), array(0 => "on", 1 => "true", 2 => 1))) {
             echo "required=\"required\"";
         }
-        // line 51
+        // line 56
         echo "                                    ";
         if ($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", array()), "pattern", array())) {
             echo "pattern=\"";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", array()), "pattern", array()));
             echo "\"";
         }
-        // line 52
+        // line 57
         echo "                                    ";
         if ($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", array()), "message", array())) {
             echo "title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", array()), "message", array())));
             echo "\"
                                     ";
-        } elseif ($this->getAttribute(        // line 53
+        } elseif ($this->getAttribute(        // line 58
 ($context["field"] ?? null), "title", array(), "any", true, true)) {
             echo "title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->getAttribute(($context["field"] ?? null), "title", array())));
             echo "\" ";
         }
-        // line 54
+        // line 59
         echo "                                ";
     }
 
-    // line 56
+    // line 61
     public function block_append($context, array $blocks = array())
     {
     }
@@ -351,7 +385,7 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
 
     public function getDebugInfo()
     {
-        return array (  338 => 56,  334 => 54,  328 => 53,  321 => 52,  314 => 51,  309 => 50,  302 => 49,  297 => 48,  292 => 47,  287 => 46,  280 => 45,  275 => 44,  268 => 43,  261 => 42,  254 => 41,  251 => 40,  246 => 34,  241 => 64,  237 => 62,  228 => 60,  224 => 59,  221 => 58,  218 => 57,  216 => 56,  213 => 55,  210 => 40,  206 => 38,  201 => 37,  198 => 35,  196 => 34,  189 => 33,  186 => 32,  182 => 66,  179 => 32,  176 => 31,  170 => 28,  166 => 27,  161 => 26,  158 => 25,  151 => 19,  145 => 17,  137 => 15,  134 => 14,  131 => 13,  125 => 72,  119 => 69,  112 => 68,  109 => 67,  107 => 31,  104 => 30,  102 => 25,  97 => 24,  92 => 21,  90 => 13,  82 => 12,  77 => 11,  74 => 10,  71 => 9,  66 => 8,  61 => 75,  59 => 9,  48 => 8,  42 => 7,  39 => 6,  37 => 5,  35 => 4,  33 => 3,  31 => 2,  29 => 1,);
+        return array (  372 => 61,  368 => 59,  362 => 58,  355 => 57,  348 => 56,  343 => 55,  340 => 54,  329 => 52,  324 => 51,  321 => 50,  314 => 49,  309 => 48,  304 => 47,  299 => 46,  292 => 45,  287 => 44,  280 => 43,  273 => 42,  266 => 41,  263 => 40,  258 => 34,  253 => 69,  249 => 67,  240 => 65,  236 => 64,  231 => 63,  228 => 62,  226 => 61,  223 => 60,  220 => 40,  216 => 38,  211 => 37,  208 => 35,  206 => 34,  197 => 33,  194 => 32,  190 => 71,  187 => 32,  184 => 31,  178 => 28,  174 => 27,  169 => 26,  166 => 25,  159 => 19,  153 => 17,  145 => 15,  142 => 14,  139 => 13,  133 => 77,  127 => 74,  120 => 73,  117 => 72,  115 => 31,  112 => 30,  110 => 25,  103 => 24,  98 => 21,  96 => 13,  86 => 12,  79 => 11,  76 => 10,  73 => 9,  68 => 8,  63 => 80,  61 => 9,  48 => 8,  42 => 7,  39 => 6,  37 => 5,  35 => 4,  33 => 3,  31 => 2,  29 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -371,11 +405,11 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
 {% set errors = attribute(form.messages, field.name) %}
 
 {% block field %}
-    <div class=\"form-field {{ field.outerclasses }} {% if errors %} has-errors{% endif %} {% block outer_field_classes %}{% endblock %}\">
+    <div class=\"{{ form_field_outer_classes ?: 'form-field' }} {{ field.outerclasses }} {% if errors %} has-errors{% endif %} {% block outer_field_classes %}{% endblock %}\">
         {% block contents %}
             {% if field.label is not same as(false) %}
-                <div class=\"form-label {{ field.labelclasses }}\">
-                    <label class=\"inline\" {% if field.id is defined %}for=\"{{ field.id|e }}\" {% endif %} >
+                <div class=\"{{ form_field_outer_label_classes ?: 'form-label' }} {{ field.labelclasses }}\">
+                    <label class=\"{{ form_field_label_classes ?: 'inline' }}\" {% if field.id is defined %}for=\"{{ field.id|e }}\" {% endif %} >
                     {% block label %}
                         {% if field.help %}
                         <span class=\"tooltip\" data-asTooltip-position=\"w\" title=\"{{ field.help|t|e }}\">{{ field.label|default(field.name|capitalize)|t }}</span>
@@ -387,7 +421,7 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
                     </label>
                 </div>
             {% endif %}
-            <div class=\"form-data {{ field.dataclasses }}\"
+            <div class=\"{{ form_field_outer_data_classes ?: 'form-data' }} {{ field.dataclasses }}\"
                 {% block global_attributes %}
                 data-grav-field=\"{{ field.type }}\"
                 data-grav-disabled=\"{{ originalValue is null ? 'true' : 'false' }}\"
@@ -396,7 +430,7 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
             >
                 {% block group %}
                     {% block input %}
-                        <div class=\"form-input-wrapper {{ field.size }} {{ field.wrapper_classes }}\">
+                        <div class=\"{{ form_field_wrapper_classes ?: 'form-input-wrapper' }} {{ field.size }} {{ field.wrapper_classes }}\">
                             {% block prepend %}{% endblock prepend %}
                             <input
                                 {# required attribute structures #}
@@ -413,6 +447,11 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
                                     {% if field.novalidate in ['on', 'true', 1] %}novalidate=\"novalidate\"{% endif %}
                                     {% if field.readonly in ['on', 'true', 1] %}readonly=\"readonly\"{% endif %}
                                     {% if field.autocomplete in ['on', 'off'] %}autocomplete=\"{{ field.autocomplete }}\"{% endif %}
+                                    {% if field.attributes is defined %}
+                                      {% for attribute in field.attributes %}
+                                          {{ attribute.name }}=\"{{ attribute.value|e }}\"
+                                      {% endfor %}
+                                    {% endif %}
                                     {% if field.validate.required in ['on', 'true', 1] %}required=\"required\"{% endif %}
                                     {% if field.validate.pattern %}pattern=\"{{ field.validate.pattern|e }}\"{% endif %}
                                     {% if field.validate.message %}title=\"{{ field.validate.message|t|e }}\"
@@ -421,7 +460,7 @@ class __TwigTemplate_4e7d6f99668a9b6a667deafd86fafe5f101d745eacac1902dfc3252d32a
                             />
                             {% block append %}{% endblock append %}
                             {% if form.inline_errors and errors %}
-                                <div class=\"form-errors\">
+                                <div class=\"{{ form_errors_classes ?: 'form-errors' }}\">
                                     {% for error in errors %}
                                         <p class=\"form-message\"><i class=\"fa fa-exclamation-circle\"></i> {{ error }}</p>
                                     {% endfor %}

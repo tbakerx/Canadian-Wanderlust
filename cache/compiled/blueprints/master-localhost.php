@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1505055622,
-    'checksum' => 'a274488f4021a0b1929e4c38d8ac194a',
+    'timestamp' => 1505468958,
+    'checksum' => '7257e9dc45a94aecdc052ac85c90283e',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -19,13 +19,13 @@ return [
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1502892524
+                'modified' => 1505468896
             ]
         ],
         'user/plugins' => [
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1502892526
+                'modified' => 1505468896
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/blueprints.yaml',
@@ -41,11 +41,11 @@ return [
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1504377910
+                'modified' => 1505468896
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1504377919
+                'modified' => 1505468896
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
@@ -57,7 +57,7 @@ return [
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1504377925
+                'modified' => 1505468896
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/blueprints.yaml',
@@ -1038,6 +1038,13 @@ return [
                 'name' => 'system.cache.redis.port',
                 'validation' => 'loose'
             ],
+            'system.cache.redis.password' => [
+                'type' => 'text',
+                'size' => 'small',
+                'label' => 'PLUGIN_ADMIN.REDIS_PASSWORD',
+                'name' => 'system.cache.redis.password',
+                'validation' => 'loose'
+            ],
             'system.caching' => [
                 'type' => 'section',
                 'underline' => true,
@@ -1281,8 +1288,11 @@ return [
                 'validation' => 'loose'
             ],
             'system.assets.collections' => [
-                'type' => 'array',
+                'type' => 'multilevel',
                 'label' => 'PLUGIN_ADMIN.COLLECTIONS',
+                'validate' => [
+                    'type' => 'array'
+                ],
                 'name' => 'system.assets.collections',
                 'validation' => 'loose'
             ],
@@ -1705,6 +1715,20 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'system.absolute_urls',
+                'validation' => 'loose'
+            ],
+            'system.case_insensitive_urls' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.CASE_INSENSITIVE_URLS',
+                'highlight' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'system.case_insensitive_urls',
                 'validation' => 'loose'
             ],
             'system.param_sep' => [
@@ -2621,6 +2645,21 @@ return [
                 'name' => 'plugins.form.built_in_css',
                 'validation' => 'strict'
             ],
+            'plugins.form.refresh_prevention' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_FORM.REFRESH_PREVENTION',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.form.refresh_prevention',
+                'validation' => 'strict'
+            ],
             'plugins.form.general' => [
                 'type' => 'section',
                 'name' => 'plugins.form.general',
@@ -2798,6 +2837,21 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'plugins.admin.cache_enabled',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.twofa_enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.2FA_TITLE',
+                'default' => 1,
+                'highlight' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.admin.twofa_enabled',
                 'validation' => 'loose'
             ],
             'plugins.admin.route' => [
@@ -3954,7 +4008,8 @@ return [
                     'redis' => [
                         'socket' => 'system.cache.redis.socket',
                         'server' => 'system.cache.redis.server',
-                        'port' => 'system.cache.redis.port'
+                        'port' => 'system.cache.redis.port',
+                        'password' => 'system.cache.redis.password'
                     ]
                 ],
                 'twig' => [
@@ -4024,6 +4079,7 @@ return [
                 'pwd_regex' => 'system.pwd_regex',
                 'wrapped_site' => 'system.wrapped_site',
                 'absolute_urls' => 'system.absolute_urls',
+                'case_insensitive_urls' => 'system.case_insensitive_urls',
                 'param_sep' => 'system.param_sep',
                 'force_ssl' => 'system.force_ssl',
                 'custom_base_url' => 'system.custom_base_url'
@@ -4132,6 +4188,7 @@ return [
                     'enabled' => 'plugins.form.enabled',
                     'general' => 'plugins.form.general',
                     'built_in_css' => 'plugins.form.built_in_css',
+                    'refresh_prevention' => 'plugins.form.refresh_prevention',
                     'files' => [
                         'multiple' => 'plugins.form.files.multiple',
                         'destination' => 'plugins.form.files.destination',
@@ -4156,6 +4213,7 @@ return [
                     'Basics' => 'plugins.admin.Basics',
                     'enabled' => 'plugins.admin.enabled',
                     'cache_enabled' => 'plugins.admin.cache_enabled',
+                    'twofa_enabled' => 'plugins.admin.twofa_enabled',
                     'route' => 'plugins.admin.route',
                     'logo_text' => 'plugins.admin.logo_text',
                     'content_padding' => 'plugins.admin.content_padding',

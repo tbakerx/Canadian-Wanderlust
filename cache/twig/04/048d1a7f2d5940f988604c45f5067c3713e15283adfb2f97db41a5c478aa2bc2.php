@@ -31,103 +31,86 @@ class __TwigTemplate_6a8ea38df512d61654a9cc8dfce6e9da0f474bb2d502cb98e4fb24bdcfd
         echo "
 ";
         // line 5
-        if ($this->getAttribute(($context["form"] ?? null), "message", array())) {
-            // line 6
-            echo "    ";
-            if (($this->getAttribute(($context["form"] ?? null), "inline_errors", array()) && $this->getAttribute(($context["form"] ?? null), "messages", array()))) {
-                // line 7
-                echo "        <div class=\"alert notices ";
-                echo (($this->getAttribute(($context["form"] ?? null), "message_color", array())) ? ($this->getAttribute(($context["form"] ?? null), "message_color", array())) : ("green"));
-                echo "\"><p>";
-                echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("FORM.VALIDATION_FAIL");
-                echo "</p></div>
-    ";
-            } else {
-                // line 9
-                echo "        <div class=\"alert notices ";
-                echo (($this->getAttribute(($context["form"] ?? null), "message_color", array())) ? ($this->getAttribute(($context["form"] ?? null), "message_color", array())) : ("green"));
-                echo "\"><p>";
-                echo $this->getAttribute(($context["form"] ?? null), "message", array());
-                echo "</p></div>
-    ";
-            }
-        }
-        // line 12
-        $context["scope"] = ((($context["scope"] ?? null)) ? (($context["scope"] ?? null)) : ("data."));
-        // line 13
-        $context["multipart"] = "";
-        // line 14
-        $context["method"] = _twig_default_filter(twig_upper_filter($this->env, $this->getAttribute(($context["form"] ?? null), "method", array())), "POST");
-        // line 15
+        $this->loadTemplate("partials/form-messages.html.twig", "forms/default/form.html.twig", 5)->display($context);
+        // line 6
         echo "
 ";
-        // line 16
+        // line 7
+        $context["scope"] = ((($context["scope"] ?? null)) ? (($context["scope"] ?? null)) : ("data."));
+        // line 8
+        $context["multipart"] = "";
+        // line 9
+        $context["method"] = _twig_default_filter(twig_upper_filter($this->env, $this->getAttribute(($context["form"] ?? null), "method", array())), "POST");
+        // line 10
+        echo "
+";
+        // line 11
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["form"] ?? null), "fields", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["field"]) {
-            // line 17
+            // line 12
             echo "    ";
             if (((($context["method"] ?? null) == "POST") && ($this->getAttribute($context["field"], "type", array()) == "file"))) {
-                // line 18
+                // line 13
                 echo "        ";
                 $context["multipart"] = " enctype=\"multipart/form-data\"";
-                // line 19
+                // line 14
                 echo "    ";
             }
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['field'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 21
+        // line 16
         echo "
 ";
-        // line 22
+        // line 17
         $context["action"] = (($this->getAttribute(($context["form"] ?? null), "action", array())) ? ((($context["base_url"] ?? null) . $this->getAttribute(($context["form"] ?? null), "action", array()))) : (((($context["base_url"] ?? null) . $this->getAttribute(($context["page"] ?? null), "route", array())) . $this->getAttribute(($context["uri"] ?? null), "params", array()))));
-        // line 23
+        // line 18
         echo "
 ";
-        // line 24
+        // line 19
         if ((($context["action"] ?? null) == ($context["base_url_relative"] ?? null))) {
-            // line 25
+            // line 20
             echo "    ";
             $context["action"] = ((($context["base_url_relative"] ?? null) . "/") . $this->getAttribute(($context["page"] ?? null), "slug", array()));
         }
-        // line 27
+        // line 22
         echo "
 <form name=\"";
-        // line 28
+        // line 23
         echo $this->getAttribute(($context["form"] ?? null), "name", array());
         echo "\"
       action=\"";
-        // line 29
+        // line 24
         echo ($context["action"] ?? null);
         echo "\"
       method=\"";
-        // line 30
+        // line 25
         echo ($context["method"] ?? null);
         echo "\"";
         echo ($context["multipart"] ?? null);
         echo "
       ";
-        // line 31
+        // line 26
         if ($this->getAttribute(($context["form"] ?? null), "id", array())) {
             echo "id=\"";
             echo $this->getAttribute(($context["form"] ?? null), "id", array());
             echo "\"";
         }
-        // line 32
+        // line 27
         echo "      ";
         $this->displayBlock('form_classes', $context, $blocks);
-        // line 35
+        // line 30
         echo ">
 
   ";
-        // line 37
+        // line 32
         $this->displayBlock('inner_markup_fields_start', $context, $blocks);
-        // line 38
+        // line 33
         echo "
   ";
-        // line 39
+        // line 34
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["form"] ?? null), "fields", array()));
         $context['loop'] = array(
@@ -144,27 +127,27 @@ class __TwigTemplate_6a8ea38df512d61654a9cc8dfce6e9da0f474bb2d502cb98e4fb24bdcfd
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["field"]) {
-            // line 40
+            // line 35
             echo "    ";
             if (($this->getAttribute($context["field"], "type", array()) == "file")) {
-                // line 41
+                // line 36
                 echo "        ";
                 $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "plugin://form/assets/form.min.js"), "method");
-                // line 42
+                // line 37
                 echo "    ";
             }
-            // line 43
+            // line 38
             echo "    ";
             $context["value"] = $this->getAttribute(($context["form"] ?? null), "value", array(0 => $this->getAttribute($context["field"], "name", array())), "method");
-            // line 44
+            // line 39
             echo "    ";
             try {
-                $this->loadTemplate((((("forms/fields/" . $this->getAttribute($context["field"], "type", array())) . "/") . $this->getAttribute($context["field"], "type", array())) . ".html.twig"), "forms/default/form.html.twig", 44)->display($context);
+                $this->loadTemplate((((("forms/fields/" . $this->getAttribute($context["field"], "type", array())) . "/") . $this->getAttribute($context["field"], "type", array())) . ".html.twig"), "forms/default/form.html.twig", 39)->display($context);
             } catch (Twig_Error_Loader $e) {
                 // ignore missing template
             }
 
-            // line 45
+            // line 40
             echo "  ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -178,25 +161,25 @@ class __TwigTemplate_6a8ea38df512d61654a9cc8dfce6e9da0f474bb2d502cb98e4fb24bdcfd
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['field'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 46
+        // line 41
         echo "
   ";
-        // line 47
-        $this->loadTemplate("forms/fields/formname/formname.html.twig", "forms/default/form.html.twig", 47)->display($context);
-        // line 48
+        // line 42
+        $this->loadTemplate("forms/fields/formname/formname.html.twig", "forms/default/form.html.twig", 42)->display($context);
+        // line 43
         echo "
   ";
-        // line 49
+        // line 44
         $this->displayBlock('inner_markup_fields_end', $context, $blocks);
-        // line 50
+        // line 45
         echo "
   ";
-        // line 51
+        // line 46
         $this->displayBlock('inner_markup_buttons_start', $context, $blocks);
-        // line 54
+        // line 49
         echo "
   ";
-        // line 55
+        // line 50
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["form"] ?? null), "buttons", array()));
         $context['loop'] = array(
@@ -213,75 +196,75 @@ class __TwigTemplate_6a8ea38df512d61654a9cc8dfce6e9da0f474bb2d502cb98e4fb24bdcfd
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["button"]) {
-            // line 56
+            // line 51
             echo "      ";
             if ($this->getAttribute($context["button"], "outerclasses", array(), "any", true, true)) {
-                echo "<div class=\"";
+                echo "<div class=\" ";
                 echo $this->getAttribute($context["button"], "outerclasses", array());
                 echo "\">";
             }
-            // line 57
+            // line 52
             echo "          ";
             if ($this->getAttribute($context["button"], "url", array())) {
-                // line 58
+                // line 53
                 echo "              <a href=\"";
-                echo (((is_string($__internal_e04d719992747aa9dc5fb2546a1529bda5aadc6e48892b30bdf5552b187658a7 = $this->getAttribute($context["button"], "url", array())) && is_string($__internal_b10501c5dae2492d253eb7b55d386ad1934a51801e381016b1b6531744b86e86 = "http") && ('' === $__internal_b10501c5dae2492d253eb7b55d386ad1934a51801e381016b1b6531744b86e86 || 0 === strpos($__internal_e04d719992747aa9dc5fb2546a1529bda5aadc6e48892b30bdf5552b187658a7, $__internal_b10501c5dae2492d253eb7b55d386ad1934a51801e381016b1b6531744b86e86)))) ? ($this->getAttribute($context["button"], "url", array())) : ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc($this->getAttribute($context["button"], "url", array()))));
+                echo (((is_string($__internal_d03a743bb52a8bc15dad148739940f080e82b4c93fc7b2e76bdc1f3ac442e727 = $this->getAttribute($context["button"], "url", array())) && is_string($__internal_1fcf65ce2514f45888a0625e582f9c6bd7c3b2a6d7233d4b49de1d4f169d501c = "http") && ('' === $__internal_1fcf65ce2514f45888a0625e582f9c6bd7c3b2a6d7233d4b49de1d4f169d501c || 0 === strpos($__internal_d03a743bb52a8bc15dad148739940f080e82b4c93fc7b2e76bdc1f3ac442e727, $__internal_1fcf65ce2514f45888a0625e582f9c6bd7c3b2a6d7233d4b49de1d4f169d501c)))) ? ($this->getAttribute($context["button"], "url", array())) : ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc($this->getAttribute($context["button"], "url", array()))));
                 echo "\">
           ";
             }
-            // line 60
+            // line 55
             echo "          <button
                 ";
-            // line 61
+            // line 56
             if ($this->getAttribute($context["button"], "id", array())) {
                 echo "id=\"";
                 echo $this->getAttribute($context["button"], "id", array());
                 echo "\"";
             }
-            // line 62
+            // line 57
             echo "                ";
             $this->displayBlock('button_classes', $context, $blocks);
-            // line 65
+            // line 60
             echo "                ";
             if ($this->getAttribute($context["button"], "disabled", array())) {
                 echo "disabled=\"disabled\"";
             }
-            // line 66
+            // line 61
             echo "
                 type=\"";
-            // line 67
+            // line 62
             echo (($this->getAttribute($context["button"], "type", array(), "any", true, true)) ? (_twig_default_filter($this->getAttribute($context["button"], "type", array()), "submit")) : ("submit"));
             echo "\"
 
                 ";
-            // line 69
+            // line 64
             if ($this->getAttribute($context["button"], "task", array())) {
-                // line 70
+                // line 65
                 echo "                    name=\"task\" value=\"";
                 echo $this->getAttribute($context["button"], "task", array());
                 echo "\"
                 ";
             }
-            // line 72
+            // line 67
             echo "            >
                 ";
-            // line 73
+            // line 68
             echo _twig_default_filter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->getAttribute($context["button"], "value", array())), "Submit");
             echo "
           </button>
           ";
-            // line 75
+            // line 70
             if ($this->getAttribute($context["button"], "url", array())) {
-                // line 76
+                // line 71
                 echo "              </a>
           ";
             }
-            // line 78
+            // line 73
             echo "      ";
             if ($this->getAttribute($context["button"], "outerclasses", array(), "any", true, true)) {
                 echo "</div>";
             }
-            // line 79
+            // line 74
             echo "  ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -295,67 +278,72 @@ class __TwigTemplate_6a8ea38df512d61654a9cc8dfce6e9da0f474bb2d502cb98e4fb24bdcfd
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['button'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 80
+        // line 75
         echo "
   ";
-        // line 81
+        // line 76
         $this->displayBlock('inner_markup_buttons_end', $context, $blocks);
-        // line 84
+        // line 79
         echo "
   ";
-        // line 85
+        // line 80
+        $this->loadTemplate("forms/fields/uniqueid/uniqueid.html.twig", "forms/default/form.html.twig", 80)->display($context);
+        // line 81
+        echo "  ";
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->nonceFieldFunc("form", "form-nonce");
         echo "
 </form>
 ";
     }
 
-    // line 32
+    // line 27
     public function block_form_classes($context, array $blocks = array())
     {
-        // line 33
-        echo "      ";
-        if ($this->getAttribute(($context["form"] ?? null), "classes", array())) {
-            echo "class=\"";
-            echo $this->getAttribute(($context["form"] ?? null), "classes", array());
-            echo "\"";
-        }
-        // line 34
-        echo "      ";
+        // line 28
+        echo "      class=\"";
+        echo ($context["form_outer_classes"] ?? null);
+        echo " ";
+        echo $this->getAttribute(($context["form"] ?? null), "classes", array());
+        echo "\"
+      ";
     }
 
-    // line 37
+    // line 32
     public function block_inner_markup_fields_start($context, array $blocks = array())
     {
     }
 
-    // line 49
+    // line 44
     public function block_inner_markup_fields_end($context, array $blocks = array())
     {
     }
 
-    // line 51
+    // line 46
     public function block_inner_markup_buttons_start($context, array $blocks = array())
     {
-        // line 52
-        echo "  <div class=\"buttons\">
+        // line 47
+        echo "  <div class=\"";
+        echo ((($context["form_button_outer_classes"] ?? null)) ? (($context["form_button_outer_classes"] ?? null)) : ("buttons"));
+        echo "\">
   ";
     }
 
-    // line 62
+    // line 57
     public function block_button_classes($context, array $blocks = array())
     {
-        // line 63
+        // line 58
         echo "                class=\"";
-        echo (($this->getAttribute(($context["button"] ?? null), "classes", array(), "any", true, true)) ? (_twig_default_filter($this->getAttribute(($context["button"] ?? null), "classes", array()), "button")) : ("button"));
+        echo ((($context["form_button_classes"] ?? null)) ? (($context["form_button_classes"] ?? null)) : ("button"));
+        echo " ";
+        echo $this->getAttribute(($context["button"] ?? null), "classes", array());
         echo "\"
                 ";
     }
 
-    // line 81
+    // line 76
     public function block_inner_markup_buttons_end($context, array $blocks = array())
     {
-        // line 82
+        // line 77
         echo "  </div>
   ";
     }
@@ -372,7 +360,7 @@ class __TwigTemplate_6a8ea38df512d61654a9cc8dfce6e9da0f474bb2d502cb98e4fb24bdcfd
 
     public function getDebugInfo()
     {
-        return array (  359 => 82,  356 => 81,  349 => 63,  346 => 62,  341 => 52,  338 => 51,  333 => 49,  328 => 37,  324 => 34,  317 => 33,  314 => 32,  307 => 85,  304 => 84,  302 => 81,  299 => 80,  285 => 79,  280 => 78,  276 => 76,  274 => 75,  269 => 73,  266 => 72,  260 => 70,  258 => 69,  253 => 67,  250 => 66,  245 => 65,  242 => 62,  236 => 61,  233 => 60,  227 => 58,  224 => 57,  217 => 56,  200 => 55,  197 => 54,  195 => 51,  192 => 50,  190 => 49,  187 => 48,  185 => 47,  182 => 46,  168 => 45,  160 => 44,  157 => 43,  154 => 42,  151 => 41,  148 => 40,  131 => 39,  128 => 38,  126 => 37,  122 => 35,  119 => 32,  113 => 31,  107 => 30,  103 => 29,  99 => 28,  96 => 27,  92 => 25,  90 => 24,  87 => 23,  85 => 22,  82 => 21,  75 => 19,  72 => 18,  69 => 17,  65 => 16,  62 => 15,  60 => 14,  58 => 13,  56 => 12,  47 => 9,  39 => 7,  36 => 6,  34 => 5,  31 => 4,  27 => 2,  25 => 1,);
+        return array (  347 => 77,  344 => 76,  335 => 58,  332 => 57,  325 => 47,  322 => 46,  317 => 44,  312 => 32,  303 => 28,  300 => 27,  292 => 81,  290 => 80,  287 => 79,  285 => 76,  282 => 75,  268 => 74,  263 => 73,  259 => 71,  257 => 70,  252 => 68,  249 => 67,  243 => 65,  241 => 64,  236 => 62,  233 => 61,  228 => 60,  225 => 57,  219 => 56,  216 => 55,  210 => 53,  207 => 52,  200 => 51,  183 => 50,  180 => 49,  178 => 46,  175 => 45,  173 => 44,  170 => 43,  168 => 42,  165 => 41,  151 => 40,  143 => 39,  140 => 38,  137 => 37,  134 => 36,  131 => 35,  114 => 34,  111 => 33,  109 => 32,  105 => 30,  102 => 27,  96 => 26,  90 => 25,  86 => 24,  82 => 23,  79 => 22,  75 => 20,  73 => 19,  70 => 18,  68 => 17,  65 => 16,  58 => 14,  55 => 13,  52 => 12,  48 => 11,  45 => 10,  43 => 9,  41 => 8,  39 => 7,  36 => 6,  34 => 5,  31 => 4,  27 => 2,  25 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -389,13 +377,8 @@ class __TwigTemplate_6a8ea38df512d61654a9cc8dfce6e9da0f474bb2d502cb98e4fb24bdcfd
     {% set form = grav.session.getFlashObject('form') %}
 {% endif  %}
 
-{% if form.message %}
-    {% if form.inline_errors and form.messages %}
-        <div class=\"alert notices {{ form.message_color ?: 'green' }}\"><p>{{ \"FORM.VALIDATION_FAIL\"|t|raw }}</p></div>
-    {% else %}
-        <div class=\"alert notices {{ form.message_color ?: 'green' }}\"><p>{{ form.message|raw }}</p></div>
-    {% endif %}
-{% endif %}
+{% include 'partials/form-messages.html.twig' %}
+
 {% set scope = scope ?: 'data.' %}
 {% set multipart = '' %}
 {% set method = form.method|upper|default('POST') %}
@@ -417,7 +400,7 @@ class __TwigTemplate_6a8ea38df512d61654a9cc8dfce6e9da0f474bb2d502cb98e4fb24bdcfd
       method=\"{{ method }}\"{{ multipart }}
       {% if form.id %}id=\"{{ form.id }}\"{% endif %}
       {% block form_classes %}
-      {% if form.classes %}class=\"{{ form.classes }}\"{% endif %}
+      class=\"{{ form_outer_classes }} {{ form.classes }}\"
       {% endblock %}
 >
 
@@ -436,18 +419,18 @@ class __TwigTemplate_6a8ea38df512d61654a9cc8dfce6e9da0f474bb2d502cb98e4fb24bdcfd
   {% block inner_markup_fields_end %}{% endblock %}
 
   {% block inner_markup_buttons_start %}
-  <div class=\"buttons\">
+  <div class=\"{{ form_button_outer_classes ?: 'buttons'}}\">
   {% endblock %}
 
   {% for button in form.buttons %}
-      {% if button.outerclasses is defined %}<div class=\"{{ button.outerclasses }}\">{% endif %}
+      {% if button.outerclasses is defined %}<div class=\" {{ button.outerclasses }}\">{% endif %}
           {% if button.url %}
               <a href=\"{{ button.url starts with 'http' ? button.url : url(button.url) }}\">
           {% endif %}
           <button
                 {% if button.id %}id=\"{{ button.id }}\"{% endif %}
                 {% block button_classes %}
-                class=\"{{ button.classes|default('button') }}\"
+                class=\"{{ form_button_classes ?: 'button' }} {{ button.classes }}\"
                 {% endblock %}
                 {% if button.disabled %}disabled=\"disabled\"{% endif %}
 
@@ -469,6 +452,7 @@ class __TwigTemplate_6a8ea38df512d61654a9cc8dfce6e9da0f474bb2d502cb98e4fb24bdcfd
   </div>
   {% endblock %}
 
+  {% include 'forms/fields/uniqueid/uniqueid.html.twig' %}
   {{ nonce_field('form', 'form-nonce')|raw }}
 </form>
 ", "forms/default/form.html.twig", "/home/timbaker/Documents/dev/CanadianWanderlust/user/plugins/form/templates/forms/default/form.html.twig");

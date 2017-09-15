@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconsolata|Pacifico);
+@import url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconsolata|Lobster);
 #header .logo h3, #header .logo ul.social-icons, #header .search-box, #header #navbar ul.navigation, #header #navbar .panel-activation {
   position: relative;
   top: 50%;
@@ -41,7 +41,7 @@ b, strong, label, th {
   padding-right: 0; }
 
 #body {
-  background: #fff;
+  background: #fffbed;
   padding-top: 15rem; }
 
 .left {
@@ -98,7 +98,7 @@ b, strong, label, th {
   z-index: 10000;
   width: 100%;
   height: 12rem;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #fffbed;
   box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15); }
   #header > .grid, #header .logo, #header #navbar, #header .social-navigation {
     height: 50%; }
@@ -1101,17 +1101,18 @@ ul.pagination {
     padding-left: 14rem;
     padding-right: 14rem;
     text-transform: uppercase; }
-    @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    @media only all and (min-width: 48em) and (max-width: 75.938em) {
       .modular .showcase h1 {
-        font-size: 1.5rem; } }
+        font-size: 1.5rem;
+        } }
     @media only all and (max-width: 47.938em) {
       .modular .showcase h1 {
         font-size: 1.3rem;
         line-height: 1.2;
         padding-left: 0;
         padding-right: 0;
-        margin-left: 4rem;
-        margin-right: 4rem; } }
+        margin-left: 1.5rem;
+        margin-right: 1.5rem; } }
     .modular .showcase h1 strong, .modular .showcase h1 label, .modular .showcase h1 th {
       color: #00d173; }
   .modular .showcase h2 {
@@ -1122,8 +1123,8 @@ ul.pagination {
       .modular .showcase h2 {
         padding-left: 0;
         padding-right: 0;
-        margin-left: 4rem;
-        margin-right: 4rem; } }
+        margin-left: 1.5rem;
+        margin-right: 1.5rem; } }
   .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button {
     color: #FFFFFF;
     font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
@@ -1615,7 +1616,7 @@ ul.pagination {
   border-bottom: 1px solid #eaeaea; }
   .logo h3 {
     font-size: 2.5rem;
-    font-family: "Pacifico", "monospace";
+    font-family: "Lobster", "monospace";
     line-height: 2rem;
     margin: 0;
     float: left; }

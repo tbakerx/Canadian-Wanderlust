@@ -727,21 +727,21 @@ class __TwigTemplate_1ef4b85eef758a663e4b6b12ebe6bf669d08b71cb86917e0d7e58ad99a6
             echo "    <div class=\"remodal\" data-remodal-id=\"modal\" data-remodal-options=\"hashTracking: false\">
         ";
             // line 347
-            $this->loadTemplate("partials/blueprints-new.html.twig", "pages.html.twig", 347)->display(array_merge($context, array("blueprints" => $this->getAttribute(($context["admin"] ?? null), "blueprints", array(0 => "admin/pages/new"), "method"), "data" => ($context["obj_data"] ?? null))));
+            $this->loadTemplate("partials/blueprints-new.html.twig", "pages.html.twig", 347)->display(array_merge($context, array("blueprints" => $this->getAttribute(($context["admin"] ?? null), "blueprints", array(0 => "admin/pages/new"), "method"), "data" => ($context["obj_data"] ?? null), "form_id" => "new-page")));
             // line 348
             echo "    </div>
 
     <div class=\"remodal\" data-remodal-id=\"modal-folder\" data-remodal-options=\"hashTracking: false\">
         ";
             // line 351
-            $this->loadTemplate("partials/blueprints-new-folder.html.twig", "pages.html.twig", 351)->display(array_merge($context, array("blueprints" => $this->getAttribute(($context["admin"] ?? null), "blueprints", array(0 => "admin/pages/new_folder"), "method"), "data" => ($context["obj_data"] ?? null))));
+            $this->loadTemplate("partials/blueprints-new-folder.html.twig", "pages.html.twig", 351)->display(array_merge($context, array("blueprints" => $this->getAttribute(($context["admin"] ?? null), "blueprints", array(0 => "admin/pages/new_folder"), "method"), "data" => ($context["obj_data"] ?? null), "form_id" => "new-folder")));
             // line 352
             echo "    </div>
 
     <div class=\"remodal\" data-remodal-id=\"modular\" data-remodal-options=\"hashTracking: false\">
         ";
             // line 355
-            $this->loadTemplate("partials/blueprints-new.html.twig", "pages.html.twig", 355)->display(array_merge($context, array("blueprints" => $this->getAttribute(($context["admin"] ?? null), "blueprints", array(0 => "admin/pages/modular_new"), "method"), "data" => ($context["obj_data"] ?? null))));
+            $this->loadTemplate("partials/blueprints-new.html.twig", "pages.html.twig", 355)->display(array_merge($context, array("blueprints" => $this->getAttribute(($context["admin"] ?? null), "blueprints", array(0 => "admin/pages/modular_new"), "method"), "data" => ($context["obj_data"] ?? null), "form_id" => "new-modular")));
             // line 356
             echo "    </div>
 
@@ -771,7 +771,7 @@ class __TwigTemplate_1ef4b85eef758a663e4b6b12ebe6bf669d08b71cb86917e0d7e58ad99a6
                 echo "\" data-remodal-options=\"hashTracking: false\">
             ";
                 // line 360
-                $this->loadTemplate($this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->getAttribute($context["add_modal"], "template", array()), "partials/blueprints-new.html.twig"), "pages.html.twig", 360)->display(array_merge($context, twig_array_merge(array("blueprints" => $this->getAttribute(($context["admin"] ?? null), "blueprints", array(0 => $this->getAttribute($context["add_modal"], "blueprint", array())), "method"), "data" => ($context["context"] ?? null)), $this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->getAttribute($context["add_modal"], "with", array()), array()))));
+                $this->loadTemplate($this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->getAttribute($context["add_modal"], "template", array()), "partials/blueprints-new.html.twig"), "pages.html.twig", 360)->display(array_merge($context, twig_array_merge(array("blueprints" => $this->getAttribute(($context["admin"] ?? null), "blueprints", array(0 => $this->getAttribute($context["add_modal"], "blueprint", array())), "method"), "data" => ($context["context"] ?? null), "form_id" => "add-modal"), $this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->getAttribute($context["add_modal"], "with", array()), array()))));
                 // line 361
                 echo "        </div>
     ";
@@ -964,9 +964,8 @@ class __TwigTemplate_1ef4b85eef758a663e4b6b12ebe6bf669d08b71cb86917e0d7e58ad99a6
                 // line 59
                 echo "        ";
                 if ($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "content", array()), "order", array()), "custom", array())) {
-                    echo " 
-            ";
                     // line 60
+                    echo "            ";
                     $context["pcol"] = $this->getAttribute($this->getAttribute(($context["page"] ?? null), "children", array(), "method"), "order", array(0 => $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "content", array()), "order", array()), "by", array()), 1 => (($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array(), "any", false, true), "content", array(), "any", false, true), "order", array(), "any", false, true), "dir", array(), "any", true, true)) ? (_twig_default_filter($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array(), "any", false, true), "content", array(), "any", false, true), "order", array(), "any", false, true), "dir", array()), "asc")) : ("asc")), 2 => $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "content", array()), "order", array()), "custom", array())), "method");
                     // line 61
                     echo "        ";
@@ -1145,7 +1144,7 @@ $context["p"], "published", array())) ? (($this->env->getExtension('Grav\Plugin\
 
     public function getDebugInfo()
     {
-        return array (  1117 => 116,  1111 => 113,  1106 => 112,  1104 => 111,  1100 => 109,  1094 => 107,  1088 => 105,  1086 => 104,  1078 => 101,  1075 => 100,  1071 => 98,  1068 => 97,  1058 => 95,  1056 => 94,  1048 => 92,  1046 => 91,  1042 => 90,  1033 => 86,  1029 => 85,  1024 => 83,  1021 => 82,  1019 => 81,  1016 => 80,  1014 => 79,  1012 => 78,  1010 => 77,  1008 => 76,  1006 => 75,  1004 => 74,  1002 => 73,  1001 => 72,  1000 => 71,  999 => 70,  997 => 69,  993 => 68,  990 => 67,  987 => 66,  984 => 65,  981 => 64,  978 => 63,  975 => 62,  972 => 61,  970 => 60,  965 => 59,  963 => 58,  960 => 57,  957 => 56,  954 => 55,  951 => 54,  948 => 53,  945 => 52,  942 => 51,  939 => 50,  936 => 49,  922 => 48,  904 => 4,  891 => 3,  884 => 402,  881 => 401,  876 => 398,  869 => 397,  861 => 392,  857 => 391,  850 => 387,  846 => 385,  838 => 383,  836 => 382,  831 => 380,  826 => 377,  824 => 376,  821 => 375,  817 => 373,  810 => 372,  806 => 370,  804 => 369,  800 => 367,  798 => 366,  794 => 364,  791 => 363,  776 => 361,  774 => 360,  767 => 359,  750 => 358,  746 => 356,  744 => 355,  739 => 352,  737 => 351,  732 => 348,  730 => 347,  727 => 346,  725 => 345,  722 => 344,  719 => 343,  716 => 342,  713 => 341,  711 => 340,  708 => 339,  705 => 338,  703 => 337,  699 => 335,  695 => 333,  693 => 332,  688 => 330,  680 => 325,  676 => 324,  670 => 321,  658 => 318,  654 => 316,  650 => 314,  647 => 313,  644 => 312,  641 => 311,  638 => 310,  636 => 309,  631 => 306,  623 => 301,  611 => 300,  607 => 299,  595 => 298,  591 => 296,  588 => 295,  585 => 294,  582 => 293,  579 => 292,  576 => 291,  574 => 290,  571 => 289,  567 => 287,  563 => 285,  557 => 284,  547 => 282,  544 => 281,  540 => 280,  534 => 276,  532 => 275,  529 => 274,  523 => 272,  517 => 270,  515 => 269,  511 => 267,  509 => 266,  504 => 263,  501 => 262,  498 => 261,  496 => 260,  493 => 259,  490 => 258,  482 => 254,  476 => 251,  473 => 250,  471 => 249,  466 => 248,  464 => 247,  461 => 246,  455 => 242,  452 => 241,  448 => 239,  442 => 238,  432 => 236,  429 => 235,  426 => 234,  422 => 233,  416 => 229,  413 => 228,  411 => 227,  407 => 226,  403 => 224,  400 => 223,  394 => 221,  386 => 219,  383 => 218,  377 => 216,  375 => 215,  371 => 214,  365 => 213,  360 => 210,  354 => 208,  352 => 207,  348 => 206,  344 => 205,  335 => 199,  331 => 197,  329 => 196,  326 => 195,  318 => 193,  315 => 192,  312 => 191,  310 => 190,  307 => 189,  299 => 187,  296 => 186,  293 => 185,  291 => 184,  288 => 183,  286 => 182,  279 => 180,  274 => 178,  271 => 177,  269 => 176,  266 => 175,  262 => 173,  258 => 171,  252 => 170,  244 => 168,  241 => 167,  238 => 166,  234 => 165,  228 => 161,  226 => 160,  220 => 158,  218 => 157,  213 => 154,  211 => 153,  206 => 150,  200 => 149,  188 => 147,  185 => 146,  180 => 145,  174 => 143,  172 => 142,  168 => 141,  164 => 140,  155 => 134,  150 => 131,  144 => 130,  132 => 128,  129 => 127,  125 => 126,  117 => 124,  115 => 123,  112 => 122,  109 => 121,  102 => 41,  99 => 40,  92 => 37,  89 => 36,  86 => 35,  83 => 34,  80 => 33,  76 => 1,  74 => 46,  72 => 45,  70 => 44,  68 => 31,  66 => 30,  64 => 29,  62 => 28,  60 => 27,  57 => 24,  55 => 23,  51 => 20,  48 => 18,  46 => 17,  44 => 16,  42 => 15,  40 => 14,  38 => 13,  36 => 12,  34 => 11,  31 => 8,  29 => 7,  11 => 1,);
+        return array (  1116 => 116,  1110 => 113,  1105 => 112,  1103 => 111,  1099 => 109,  1093 => 107,  1087 => 105,  1085 => 104,  1077 => 101,  1074 => 100,  1070 => 98,  1067 => 97,  1057 => 95,  1055 => 94,  1047 => 92,  1045 => 91,  1041 => 90,  1032 => 86,  1028 => 85,  1023 => 83,  1020 => 82,  1018 => 81,  1015 => 80,  1013 => 79,  1011 => 78,  1009 => 77,  1007 => 76,  1005 => 75,  1003 => 74,  1001 => 73,  1000 => 72,  999 => 71,  998 => 70,  996 => 69,  992 => 68,  989 => 67,  986 => 66,  983 => 65,  980 => 64,  977 => 63,  974 => 62,  971 => 61,  968 => 60,  965 => 59,  963 => 58,  960 => 57,  957 => 56,  954 => 55,  951 => 54,  948 => 53,  945 => 52,  942 => 51,  939 => 50,  936 => 49,  922 => 48,  904 => 4,  891 => 3,  884 => 402,  881 => 401,  876 => 398,  869 => 397,  861 => 392,  857 => 391,  850 => 387,  846 => 385,  838 => 383,  836 => 382,  831 => 380,  826 => 377,  824 => 376,  821 => 375,  817 => 373,  810 => 372,  806 => 370,  804 => 369,  800 => 367,  798 => 366,  794 => 364,  791 => 363,  776 => 361,  774 => 360,  767 => 359,  750 => 358,  746 => 356,  744 => 355,  739 => 352,  737 => 351,  732 => 348,  730 => 347,  727 => 346,  725 => 345,  722 => 344,  719 => 343,  716 => 342,  713 => 341,  711 => 340,  708 => 339,  705 => 338,  703 => 337,  699 => 335,  695 => 333,  693 => 332,  688 => 330,  680 => 325,  676 => 324,  670 => 321,  658 => 318,  654 => 316,  650 => 314,  647 => 313,  644 => 312,  641 => 311,  638 => 310,  636 => 309,  631 => 306,  623 => 301,  611 => 300,  607 => 299,  595 => 298,  591 => 296,  588 => 295,  585 => 294,  582 => 293,  579 => 292,  576 => 291,  574 => 290,  571 => 289,  567 => 287,  563 => 285,  557 => 284,  547 => 282,  544 => 281,  540 => 280,  534 => 276,  532 => 275,  529 => 274,  523 => 272,  517 => 270,  515 => 269,  511 => 267,  509 => 266,  504 => 263,  501 => 262,  498 => 261,  496 => 260,  493 => 259,  490 => 258,  482 => 254,  476 => 251,  473 => 250,  471 => 249,  466 => 248,  464 => 247,  461 => 246,  455 => 242,  452 => 241,  448 => 239,  442 => 238,  432 => 236,  429 => 235,  426 => 234,  422 => 233,  416 => 229,  413 => 228,  411 => 227,  407 => 226,  403 => 224,  400 => 223,  394 => 221,  386 => 219,  383 => 218,  377 => 216,  375 => 215,  371 => 214,  365 => 213,  360 => 210,  354 => 208,  352 => 207,  348 => 206,  344 => 205,  335 => 199,  331 => 197,  329 => 196,  326 => 195,  318 => 193,  315 => 192,  312 => 191,  310 => 190,  307 => 189,  299 => 187,  296 => 186,  293 => 185,  291 => 184,  288 => 183,  286 => 182,  279 => 180,  274 => 178,  271 => 177,  269 => 176,  266 => 175,  262 => 173,  258 => 171,  252 => 170,  244 => 168,  241 => 167,  238 => 166,  234 => 165,  228 => 161,  226 => 160,  220 => 158,  218 => 157,  213 => 154,  211 => 153,  206 => 150,  200 => 149,  188 => 147,  185 => 146,  180 => 145,  174 => 143,  172 => 142,  168 => 141,  164 => 140,  155 => 134,  150 => 131,  144 => 130,  132 => 128,  129 => 127,  125 => 126,  117 => 124,  115 => 123,  112 => 122,  109 => 121,  102 => 41,  99 => 40,  92 => 37,  89 => 36,  86 => 35,  83 => 34,  80 => 33,  76 => 1,  74 => 46,  72 => 45,  70 => 44,  68 => 31,  66 => 30,  64 => 29,  62 => 28,  60 => 27,  57 => 24,  55 => 23,  51 => 20,  48 => 18,  46 => 17,  44 => 16,  42 => 15,  40 => 14,  38 => 13,  36 => 12,  34 => 11,  31 => 8,  29 => 7,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -1216,7 +1215,7 @@ $context["p"], "published", array())) ? (($this->env->getExtension('Grav\Plugin\
     {% set uri = twig_vars['uri'] %}
 
     {% if page.header.admin.children_display_order == 'collection' and page.header.content.order.by %}
-        {% if page.header.content.order.custom %} 
+        {% if page.header.content.order.custom %}
             {% set pcol = page.children().order(page.header.content.order.by, page.header.content.order.dir|default('asc'), page.header.content.order.custom) %}
         {% else %}
             {% set pcol = page.children().order(page.header.content.order.by, page.header.content.order.dir|default('asc')) %}
@@ -1504,20 +1503,20 @@ $context["p"], "published", array())) ? (($this->env->getExtension('Grav\Plugin\
 
     {% if mode == 'list' or mode == 'edit' %}
     <div class=\"remodal\" data-remodal-id=\"modal\" data-remodal-options=\"hashTracking: false\">
-        {% include 'partials/blueprints-new.html.twig' with { blueprints: admin.blueprints('admin/pages/new'), data: obj_data } %}
+        {% include 'partials/blueprints-new.html.twig' with { blueprints: admin.blueprints('admin/pages/new'), data: obj_data, form_id:'new-page' } %}
     </div>
 
     <div class=\"remodal\" data-remodal-id=\"modal-folder\" data-remodal-options=\"hashTracking: false\">
-        {% include 'partials/blueprints-new-folder.html.twig' with { blueprints: admin.blueprints('admin/pages/new_folder'), data: obj_data } %}
+        {% include 'partials/blueprints-new-folder.html.twig' with { blueprints: admin.blueprints('admin/pages/new_folder'), data: obj_data, form_id:'new-folder' } %}
     </div>
 
     <div class=\"remodal\" data-remodal-id=\"modular\" data-remodal-options=\"hashTracking: false\">
-        {% include 'partials/blueprints-new.html.twig' with { blueprints: admin.blueprints('admin/pages/modular_new'), data: obj_data } %}
+        {% include 'partials/blueprints-new.html.twig' with { blueprints: admin.blueprints('admin/pages/modular_new'), data: obj_data, form_id:'new-modular' } %}
     </div>
 
     {% for key, add_modal in config.plugins.admin.add_modals %}
         <div class=\"remodal {{ add_modal.modal_classes|defined('') }}\" data-remodal-id=\"modal-add_modal-{{ key }}\" data-remodal-options=\"hashTracking: false\">
-            {% include add_modal.template|defined('partials/blueprints-new.html.twig') with { blueprints: admin.blueprints(add_modal.blueprint), data: context }|merge(add_modal.with|defined({})) %}
+            {% include add_modal.template|defined('partials/blueprints-new.html.twig') with { blueprints: admin.blueprints(add_modal.blueprint), data: context, form_id:'add-modal' }|merge(add_modal.with|defined({})) %}
         </div>
     {% endfor %}
     {% endif %}

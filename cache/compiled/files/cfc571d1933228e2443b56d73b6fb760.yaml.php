@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/plugins/email/blueprints.yaml',
-    'modified' => 1502892526,
+    'modified' => 1505468896,
     'data' => [
         'name' => 'Email',
-        'version' => '2.6.0',
+        'version' => '2.6.1',
         'description' => 'Enables the emailing system for Grav',
         'icon' => 'envelope',
         'author' => [
