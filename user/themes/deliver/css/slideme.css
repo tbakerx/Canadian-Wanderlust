@@ -26,8 +26,8 @@
 }
 .slideme_container ol img,
 .slideme > * img{
-    max-height: 10em;
-    margin-top: -7em;
+    max-height: 13rem;
+    margin-top: -7rem;
 }
 
 .slideme > *:first-child {

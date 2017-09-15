@@ -36,10 +36,10 @@ class __TwigTemplate_41c8ee7332b277d6f72c5e2000f776877a97390170a687d29f5abf0975b
             // line 6
             echo $this->getAttribute($context["slide"], "heading", array());
             echo "</h1>
-          <h2>";
+          <!--<h2>";
             // line 7
             echo $this->getAttribute($context["slide"], "subheading", array());
-            echo "</h2>
+            echo "</h2> -->
           <a class=\"button\" href=\"";
             // line 8
             echo $this->getAttribute($context["slide"], "button_url", array());
@@ -137,7 +137,7 @@ class __TwigTemplate_41c8ee7332b277d6f72c5e2000f776877a97390170a687d29f5abf0975b
        <div class=\"modular-row showcase flush-top\" {% if page.media[slide.image] %}style=\"background-image: url({{ page.media[slide.image].brightness(-75).url }});\"{% endif %}>
           <div><img src=\"user/themes/deliver/images/logoWhite.png\"></img></div>
           <h1>{{ slide.heading }}</h1>
-          <h2>{{ slide.subheading }}</h2>
+          <!--<h2>{{ slide.subheading }}</h2> -->
           <a class=\"button\" href=\"{{ slide.button_url }}\">{{ slide.button_text }}</a>
       </div>
   {% endfor %}
