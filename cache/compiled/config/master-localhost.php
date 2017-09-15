@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1505281189,
-    'checksum' => 'fa1e89e2c6c7281daf640d1ae002a24d',
+    'timestamp' => 1505468958,
+    'checksum' => 'd6411ef9f205a122c0c736bda627f2b8',
     'files' => [
         'user/config' => [
             'media' => [
@@ -12,6 +12,10 @@ return [
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
                 'modified' => 1502892524
+            ],
+            'plugins/form' => [
+                'file' => 'user/config/plugins/form.yaml',
+                'modified' => 1505468896
             ],
             'plugins/jscomments' => [
                 'file' => 'user/config/plugins/jscomments.yaml',
@@ -49,7 +53,7 @@ return [
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1502892524
+                'modified' => 1505468896
             ]
         ],
         'user/plugins' => [
@@ -71,11 +75,11 @@ return [
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1504377910
+                'modified' => 1505468896
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1504377919
+                'modified' => 1505468896
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -87,7 +91,7 @@ return [
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1504377925
+                'modified' => 1505468896
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/simplesearch.yaml',
@@ -152,12 +156,14 @@ return [
                 'enabled' => true,
                 'built_in_css' => true,
                 'route' => NULL,
+                'redirect_to_login' => true,
                 'redirect_after_login' => NULL,
                 'route_activate' => '/activate_user',
                 'route_forgot' => '/forgot_password',
                 'route_reset' => '/reset_password',
                 'route_profile' => '/user_profile',
                 'route_register' => '/user_register',
+                'route_unauthorized' => '/user_unauthorized',
                 'parent_acl' => false,
                 'protect_protected_page_media' => false,
                 'user_registration' => [
@@ -196,6 +202,7 @@ return [
             'form' => [
                 'enabled' => true,
                 'built_in_css' => true,
+                'refresh_prevention' => false,
                 'files' => [
                     'multiple' => false,
                     'limit' => 10,
@@ -226,6 +233,7 @@ return [
                 'logo_text' => '',
                 'body_classes' => '',
                 'content_padding' => true,
+                'twofa_enabled' => true,
                 'sidebar' => [
                     'activate' => 'tab',
                     'hover_delay' => 100,

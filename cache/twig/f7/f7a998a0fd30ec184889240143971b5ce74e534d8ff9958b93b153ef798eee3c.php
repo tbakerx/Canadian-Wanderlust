@@ -16,7 +16,7 @@ class __TwigTemplate_13d7ea761b26e8a5aef12e33228d5579fd326af7a72bf85fcbb318cf5ec
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "1809339463")->display($context);
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "1120965705")->display($context);
     }
 
     public function getTemplateName()
@@ -91,7 +91,7 @@ class __TwigTemplate_13d7ea761b26e8a5aef12e33228d5579fd326af7a72bf85fcbb318cf5ec
 
 
 /* blog.html.twig */
-class __TwigTemplate_13d7ea761b26e8a5aef12e33228d5579fd326af7a72bf85fcbb318cf5ecdf2cf_1809339463 extends Twig_Template
+class __TwigTemplate_13d7ea761b26e8a5aef12e33228d5579fd326af7a72bf85fcbb318cf5ecdf2cf_1120965705 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {

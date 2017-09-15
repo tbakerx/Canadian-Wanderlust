@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/user/themes/deliver/blueprints.yaml',
-    'modified' => 1502892526,
+    'modified' => 1505055395,
     'data' => [
         'name' => 'Deliver',
         'version' => '1.6.2',

@@ -1,7 +1,8 @@
 <div id="content-slide">
   <div class="slideme">
     {% for slide in page.header.slides %}
-       <div class="modular-row showcase flush-top" {% if page.media[slide.image] %}style="background-image: url({{ page.media[slide.image].brightness(-50).url }});"{% endif %}>
+       <div class="modular-row showcase flush-top" {% if page.media[slide.image] %}style="background-image: url({{ page.media[slide.image].brightness(-75).url }});"{% endif %}>
+          <div><img src="user/themes/deliver/images/logoWhite.png"></img></div>
           <h1>{{ slide.heading }}</h1>
           <h2>{{ slide.subheading }}</h2>
           <a class="button" href="{{ slide.button_url }}">{{ slide.button_text }}</a>

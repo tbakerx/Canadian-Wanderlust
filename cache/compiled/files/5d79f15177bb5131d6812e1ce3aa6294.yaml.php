@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/timbaker/Documents/dev/CanadianWanderlust/system/blueprints/user/account.yaml',
-    'modified' => 1502892524,
+    'modified' => 1505468896,
     'data' => [
         'title' => 'Account',
         'form' => [
@@ -72,6 +72,37 @@ return [
                     'data-options@' => '\\Grav\\Plugin\\Admin\\Admin::adminLanguages',
                     'default' => 'en',
                     'help' => 'PLUGIN_ADMIN.LANGUAGE_HELP'
+                ],
+                'twofa_check' => [
+                    'type' => 'conditional',
+                    'condition' => 'config.plugins.admin.twofa_enabled',
+                    'fields' => [
+                        'twofa' => [
+                            'title' => 'PLUGIN_ADMIN.2FA_TITLE',
+                            'type' => 'section',
+                            'underline' => true
+                        ],
+                        'twofa_enabled' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_ADMIN.2FA_ENABLED',
+                            'classes' => 'twofa-toggle',
+                            'highlight' => 1,
+                            'default' => 0,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.YES',
+                                0 => 'PLUGIN_ADMIN.NO'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
+                        'twofa_secret' => [
+                            'type' => '2fa_secret',
+                            'outerclasses' => 'twofa-secret',
+                            'label' => 'PLUGIN_ADMIN.2FA_SECRET',
+                            'sublabel' => 'PLUGIN_ADMIN.2FA_SECRET_HELP'
+                        ]
+                    ]
                 ],
                 'security' => [
                     'title' => 'PLUGIN_ADMIN.ACCESS_LEVELS',

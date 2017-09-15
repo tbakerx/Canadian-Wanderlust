@@ -69,6 +69,8 @@ class __TwigTemplate_ba738b9515ac779ef414a962ed4ce1ec2f1e95e0c83c23f9e4085e76307
         echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "size", array()), "html", null, true);
         echo " switch-";
         echo twig_escape_filter($this->env, twig_length_filter($this->env, $this->getAttribute(($context["field"] ?? null), "options", array())), "html", null, true);
+        echo " ";
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "classes", array()), "html", null, true);
         echo "\">
         ";
         // line 26
@@ -179,8 +181,7 @@ array_key_exists("value", $context) && (($context["key"] == 1) || ($context["key
         unset($context['_seq'], $context['_iterated'], $context['key'], $context['text'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 59
-        echo "        <a></a>
-    </div>
+        echo "    </div>
 ";
     }
 
@@ -230,7 +231,7 @@ array_key_exists("value", $context) && (($context["key"] == 1) || ($context["key
 
     public function getDebugInfo()
     {
-        return array (  204 => 20,  201 => 19,  188 => 18,  182 => 59,  172 => 57,  169 => 56,  164 => 55,  161 => 54,  157 => 52,  154 => 51,  151 => 50,  147 => 48,  145 => 47,  142 => 46,  139 => 45,  136 => 44,  131 => 43,  125 => 41,  123 => 40,  119 => 39,  115 => 38,  111 => 37,  107 => 35,  104 => 34,  101 => 33,  97 => 32,  94 => 31,  88 => 30,  85 => 29,  82 => 28,  77 => 27,  75 => 26,  69 => 25,  66 => 24,  63 => 23,  57 => 15,  52 => 14,  49 => 13,  45 => 1,  38 => 9,  36 => 8,  32 => 7,  30 => 6,  28 => 4,  26 => 3,  11 => 1,);
+        return array (  205 => 20,  202 => 19,  189 => 18,  184 => 59,  174 => 57,  171 => 56,  166 => 55,  163 => 54,  159 => 52,  156 => 51,  153 => 50,  149 => 48,  147 => 47,  144 => 46,  141 => 45,  138 => 44,  133 => 43,  127 => 41,  125 => 40,  121 => 39,  117 => 38,  113 => 37,  109 => 35,  106 => 34,  103 => 33,  99 => 32,  96 => 31,  90 => 30,  87 => 29,  84 => 28,  79 => 27,  77 => 26,  69 => 25,  66 => 24,  63 => 23,  57 => 15,  52 => 14,  49 => 13,  45 => 1,  38 => 9,  36 => 8,  32 => 7,  30 => 6,  28 => 4,  26 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -267,7 +268,7 @@ array_key_exists("value", $context) && (($context["key"] == 1) || ($context["key
 
 {% block input %}
 
-    <div class=\"switch-toggle switch-grav {{ field.size }} switch-{{ field.options|length }}\">
+    <div class=\"switch-toggle switch-grav {{ field.size }} switch-{{ field.options|length }} {{ field.classes }}\">
         {% set maxLen = 0 %}
         {% for text in field.options %}
             {% set translation = grav.twig.twig.filters['tu'] is defined ? text|tu : text|t %}
@@ -301,7 +302,6 @@ array_key_exists("value", $context) && (($context["key"] == 1) || ($context["key
             />
             <label for=\"{{ id }}\">{{ (_self.spanToggle(translation, maxLen)|trim)|raw }}</label>
         {% endfor %}
-        <a></a>
     </div>
 {% endblock %}
 ", "forms/fields/toggle/toggle.html.twig", "/home/timbaker/Documents/dev/CanadianWanderlust/user/plugins/admin/themes/grav/templates/forms/fields/toggle/toggle.html.twig");

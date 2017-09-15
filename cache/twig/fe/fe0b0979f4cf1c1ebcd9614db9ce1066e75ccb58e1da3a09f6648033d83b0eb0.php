@@ -35,6 +35,10 @@ class __TwigTemplate_835e7fcc5d59bcccaa089bd94bbb78c39e2b0b49fdbaecf0145b1c11a41
             <h4>";
         // line 9
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["admin"] ?? null), "user", array()), "fullname", array()));
+        echo " ";
+        if ($this->getAttribute($this->getAttribute(($context["admin"] ?? null), "user", array()), "twofa_enabled", array())) {
+            echo "<span class=\"badge\">2FA</span>";
+        }
         echo "</h4>
             <h5>";
         // line 10
@@ -58,7 +62,7 @@ class __TwigTemplate_835e7fcc5d59bcccaa089bd94bbb78c39e2b0b49fdbaecf0145b1c11a41
 
     public function getDebugInfo()
     {
-        return array (  41 => 10,  37 => 9,  33 => 7,  31 => 6,  25 => 5,  19 => 1,);
+        return array (  45 => 10,  37 => 9,  33 => 7,  31 => 6,  25 => 5,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -79,7 +83,7 @@ class __TwigTemplate_835e7fcc5d59bcccaa089bd94bbb78c39e2b0b49fdbaecf0145b1c11a41
         {% include 'partials/nav-user-avatar.html.twig' %}
 
         <div class=\"admin-user-names\">
-            <h4>{{ admin.user.fullname|e }}</h4>
+            <h4>{{ admin.user.fullname|e }} {% if admin.user.twofa_enabled %}<span class=\"badge\">2FA</span>{% endif %}</h4>
             <h5>{{ admin.user.title|e }}</h5>
         </div>
     </a>
