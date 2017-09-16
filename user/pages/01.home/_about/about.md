@@ -3,31 +3,21 @@ title: About
 menu: About
 abouts:
     - img: 1.jpg
-      heading: 2009-2011
-      subheading: Our Humble Beginnings.
-      body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+      heading: September 7, 2017
+      subheading: Bangkok: Where it all begins.
+      body: We finally landed in Bangkok and the trip has begun. We arrived without a plan and with nothing more than backpacks on our backs and some money in our pockets.
       align: image
     - img: 2.jpg
-      heading: March 2011
-      subheading: An Agency is Born.
-      body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+      heading: September 13, 2017
+      subheading: Chiang Mai
+      body: Sick of the hustle of Bangkok, we have arrived by sleeper train in Chiang Mai for some good ol' fashion relaxing.
       align: inverted
-    - img: 3.jpg
-      heading: December 2012
-      subheading: Transition to Full Service.
-      body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-      align: image
-    - img: 4.jpg
-      heading: July 2014
-      subheading: Phase Two Expansion.
-      body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-      align: inverted
-    - img:
+    - img: 3.png
       heading:
-      alttext: Be Part<br />Of Our <br />Story!
+      alttext: TBD
       subheading:
       body:
       align: inverted        
 ---
 
-# Our Trip Timeline
+#Trip Timeline
