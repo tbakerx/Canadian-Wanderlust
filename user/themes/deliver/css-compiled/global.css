@@ -5831,6 +5831,6 @@ img::-moz-selection {
   background: 0 0; }
 
 #about {
-  background-color: #00777d;
+  background: url(../images/dark_wood.png);
   color:#fff;
 }

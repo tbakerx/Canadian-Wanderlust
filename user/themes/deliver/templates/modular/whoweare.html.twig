@@ -1,0 +1,26 @@
+<div class="modular-row features {{ page.header.class}}">
+    {{ content }}
+    {% for button in page.header.buttons %}
+        <a class="button{% if button.primary %} primary{% endif %}" href="{{ button.url }}">{{ button.text }}</a>
+    {% endfor %}
+    <div class="feature-items">
+    {% for feature in page.header.features %}
+           <div class="col-md-6">
+            {% if feature.image %}
+            <img src="{{feature.image}}" style="height: 12rem; width:auto;"></i>
+            <div class="feature-content icon-offset">
+            {% else %}
+            <div class="feature-content">
+            {% endif %}
+            {% if feature.header %}
+            <h2 style="margin-top: 15px;">{{ feature.header }}</h2>
+            {% endif %}
+            {% if feature.text %}
+            <p>{{ feature.text }}</p>
+            <p><a href="{{ feature.linkurl }}">{{ feature.linktext }}</a></p>
+            {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
