@@ -12,5 +12,7 @@ content:
         custom:
             - _showcase
             - _highlights
+            - _tim
+            - _liv
             - _about
 ---

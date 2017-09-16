@@ -67,10 +67,10 @@ class __TwigTemplate_a8a159480618ed0d0ebc3e2209ce2d87e0dd08c0ed190c6690bb3ce0322
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 20
         echo "            </p>
-            <p>";
+          <!--  <p>";
         // line 21
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "author", array()), "email", array());
-        echo "</p>
+        echo "</p> -->
             <p><strong>";
         // line 22
         echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "contact", array()), "gps", array());
@@ -216,7 +216,7 @@ class __TwigTemplate_a8a159480618ed0d0ebc3e2209ce2d87e0dd08c0ed190c6690bb3ce0322
                     <span>{{ item.line }}</span>
                 {% endfor %}
             </p>
-            <p>{{ site.author.email }}</p>
+          <!--  <p>{{ site.author.email }}</p> -->
             <p><strong>{{ site.contact.gps }}</strong></p>
         </div>
         <div class=\"footer-module\"><h4>{{ site.footer.links_title }}</h4>
