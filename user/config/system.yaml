@@ -78,8 +78,8 @@ cache:
   clear_images_by_default: true
   cli_compatibility: false
   lifetime: 604800
-  gzip: false
-  allow_webserver_gzip: false
+  gzip: true
+  allow_webserver_gzip: true
 twig:
   cache: true
   debug: true
@@ -95,7 +95,7 @@ assets:
   css_minify: true
   css_minify_windows: false
   css_rewrite: true
-  js_pipeline: false
+  js_pipeline: true
   js_pipeline_include_externals: true
   js_pipeline_before_excludes: true
   js_minify: true
@@ -111,7 +111,7 @@ debugger:
     close_connection: true
   twig: true
 images:
-  default_image_quality: 85
+  default_image_quality: 60
   cache_all: false
   cache_perms: '0755'
   debug: false
