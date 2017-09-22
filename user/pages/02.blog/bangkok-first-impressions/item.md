@@ -29,7 +29,8 @@ The city seems to be dirty, cramped, and downright insane; but at the same time,
 #### As days go by
 By the second day, we have already become far more accustomed to the way of life here. My first indication came when I realized that at a busy, uncontrolled street, we crossed right through in front of traffic, just as the locals do. The previous day, this same intersection had us held up for 15 minutes in confusion of how to cross. We had the Sky Train figured out and bought food from street vendors and went about our day without much of a hassle. Except for the sweltering humid heat, that is.
 
-**Me after our walk to our new hostel:**           
+<p style= "text-align: center"><b>Me after our walk to our new hostel:</b></p> 
+
 ![sweaty](sweaty.jpg)
 
 We still have much to learn in our attempts to figure out the Thai lifestyle but already things are changing from "How are we going to survive 8 months of this" to "How are we ever going to be able to leave this place."
