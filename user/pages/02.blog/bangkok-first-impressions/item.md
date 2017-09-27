@@ -2,6 +2,7 @@
 title: 'Bangkok: First Impressions'
 date: '10-09-2017 16:34'
 metadata:
+    description: 'These are the first impressions of Bangkok from a first-time Canadian traveller.'
     '''Keywords''': '''Blog, Thailand, Bangkok, Canada, Canadian, Wanderlust'''
 taxonomy:
     category:
@@ -10,6 +11,18 @@ taxonomy:
         - Thailand
         - Bangkok
 body_classes: 'header-lite fullwidth blogstyling'
+googledesc: 'Our trip has finally begun! These are the first impressions of Bangkok from a first-time Canadian traveller.'
+twitterenable: true
+twittercardoptions: summary
+twittershareimg: /blog/bangkok-first-impressions/bangkokstreet.jpg
+twitterdescription: 'So here it is, our blog begins a few days into our journey. Admittedly, we have been feeling a bit guilty for not taking the time to write this a few days ago when we first arrived (or in the time since) to let those back home in Canada know how we are doing. But we have reali...'
+articleenabled: true
+article:
+    image_url: /blog/bangkok-first-impressions/bangkokstreet.jpg
+    author: 'Tim Baker'
+facebookenable: true
+facebookdesc: 'So here it is, our blog begins a few days into our journey. Admittedly, we have been feeling a bit guilty for not taking the time to write this a few days ago when we first arrived (or in the time since) to let those back home in Canada know how we are doing. But we have reali...'
+facebookimg: /blog/bangkok-first-impressions/bangkokstreet.jpg
 author: 'Tim Baker'
 content:
     items: '@self.children'

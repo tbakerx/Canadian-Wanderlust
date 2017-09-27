@@ -1,7 +1,6 @@
 ---
 title: 'Life In Chiang Mai'
 date: '16-09-2017 15:16'
-author: 'Tim Baker'
 taxonomy:
     category:
         - blog
@@ -9,6 +8,18 @@ taxonomy:
         - Thailand
         - 'Chiang Mai'
 body_classes: 'header-lite fullwidth blogstyling'
+googledesc: 'Growing weary of the hustle and bustle of Bangkok, we moved North to Chiang Mai for a while! This is how the experience has been for us.'
+twitterenable: true
+twittercardoptions: summary
+twittershareimg: /blog/life-in-chiang-mai/monk_temple.jpg
+twitterdescription: 'Growing weary of the hustle and bustle of Bangkok, we moved North to Chiang Mai for a while! This is how the experience has been for us.'
+articleenabled: true
+article:
+    image_url: /blog/life-in-chiang-mai/monk_temple.jpg
+    author: 'Tim Baker'
+facebookenable: true
+facebookimg: /blog/life-in-chiang-mai/monk_temple.jpg
+author: 'Tim Baker'
 ---
 
 We've been in Chiang Mai for the last few days since leaving Bangkok on the sleeper train. So far it has been great! We made the choice to move over here mostly because we were simply tired of Bangkok, we wanted to escape the hustling, dirty, and cramped conditions that are nearly unavoidable there. And this was the right choice. Aside from the roads that circle the Old City and a few other main ones in the area, Chiang Mai is nice and relaxed with not too much traffic and plenty to do and see. Just outside the city there are endless possibilities for touristy things like hikes, jungle treks, ziplining, etc. but all are very expensive in comparison to the rest of the cost of living here. We intend to take advantage of some of these experiences but for our first few days here we haven't done a whole lot. In fact we have been quite happily unexciting in our first few days here!
