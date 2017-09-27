@@ -8,10 +8,21 @@ taxonomy:
         - Thailand
         - 'Chiang Mai'
 body_classes: 'header-lite fullwidth blogstyling'
+googledesc: 'Wat Phra That Doi Suthep is one of Northern Thailand''s most sacred temples.It is ad the top of Doi Suthep and is truly a sight to see.'
+twitterenable: true
+twittercardoptions: summary
+twittershareimg: /blog/hiking-monks-trail-to-wat-doi-suthep/monkstrail.jpg
+twitterdescription: 'Wat Phra That Doi Suthep is one of Northern Thailand''s most sacred temples.It is ad the top of Doi Suthep and is truly a sight to see.'
+articleenabled: true
+article:
+    image_url: /blog/hiking-monks-trail-to-wat-doi-suthep/monkstrail.jpg
+    author: 'Tim Baker'
+facebookenable: true
+facebookimg: /blog/hiking-monks-trail-to-wat-doi-suthep/monkstrail.jpg
 author: 'Tim Baker'
 ---
 
-Wat Phra That Doi Suthep is one of Northern Thailand's most sacred temples and is truly a sight to see. The temple is at the top of Doi Suthep Mountaitn in Chiang Mai. While it is possible to take the road up to the base of the temple (by taxi, songthaew, scooter, etc.) we opted to take Monk's Trail. The first real challenge for us was to find the beginning of the trail. Following the directions of numerous bloggers and a lucky run-in with some other travellers heading the same way, we finally found the entrance.
+Wat Phra That Doi Suthep is one of Northern Thailand's most sacred temples and is truly a sight to see. The temple is at the top of Doi Suthep Mountain in Chiang Mai. While it is possible to take the road up to the base of the temple (by taxi, songthaew, scooter, etc.) we opted to take Monk's Trail. The first real challenge for us was to find the beginning of the trail. Following the directions of numerous bloggers and a lucky run-in with some other travellers heading the same way, we finally found the entrance.
 
 The trail goes runs through the forest at a very mild incline for the first hour and you can easily keep from losing your way by following the endless orange cloths tied on the trees by the monks that walk this trail (as pictured above). The forest is quite similar to those in Canada with the exception of some of the vegetation and something emmiting a high frequency ringing that was at times almost deafening. We never were able to figure out what was causing this. There was nothing really sketchy about this forest except for the one large "thing" that ran past right in front of me, so fast I couldn't tell what it was. After about 45 minutes of hiking we arrived at Wat Pha Lat, a smaller and lesser known temple, which is arguably more beautiful than Wat Doi Suthep at the top. Wat Pha Lat is much less opulent and more serene, tucked away in the forest with waterfalls, shrines, statues, and best of all, a lack of hustle and bustle. It seems that either very few other tourists are aware of this place, or that they are all too lazy to make the hike in. Either way, we were very happy to explore and rest here for a while.
 

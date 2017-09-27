@@ -3,7 +3,7 @@ trackingId: UA-106901759-1
 position: head
 objectName: ga
 forceSsl: false
-async: false
+async: true
 anonymizeIp: false
 cookieConfig: false
 cookieName: _ga

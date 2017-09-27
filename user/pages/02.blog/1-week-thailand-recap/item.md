@@ -2,6 +2,9 @@
 title: '1 Week Thailand Recap'
 published: true
 date: '16-09-2017 13:40'
+metadata:
+    Description: 'A 1 week recap of what we''ve been up to in our first week travelling through Bangkok and Chiang Mai in Thailand'
+    Keywords: 'Canadian, Wanderlust, Blog, Thailand, Chiang Mai, Bangkok'
 taxonomy:
     category:
         - blog
@@ -10,6 +13,18 @@ taxonomy:
         - 'Chiang Mai'
         - Bangkok
 body_classes: 'header-lite fullwidth blogstyling'
+googledesc: 'A 1 week recap of what we''ve been up to in our first week travelling through Bangkok and Chiang Mai in Thailand'
+twitterenable: true
+twittercardoptions: summary
+twittershareimg: /blog/1-week-thailand-recap/khao_san.jpg
+twitterdescription: 'A 1 week recap of what we''ve been up to in our first week travelling through Bangkok and Chiang Mai in Thailand'
+articleenabled: true
+article:
+    image_url: /blog/1-week-thailand-recap/khao_san.jpg
+    author: 'Tim Baker'
+facebookenable: true
+facebookimg: /blog/1-week-thailand-recap/khao_san.jpg
+autoseo: true
 author: 'Tim Baker'
 ---
 
