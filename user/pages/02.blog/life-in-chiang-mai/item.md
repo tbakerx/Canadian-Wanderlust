@@ -8,6 +8,7 @@ taxonomy:
         - Thailand
         - 'Chiang Mai'
 body_classes: 'header-lite fullwidth blogstyling'
+visible: true
 googledesc: 'Growing weary of the hustle and bustle of Bangkok, we moved North to Chiang Mai for a while! This is how the experience has been for us.'
 twitterenable: true
 twittercardoptions: summary

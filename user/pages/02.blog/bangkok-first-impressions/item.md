@@ -11,6 +11,7 @@ taxonomy:
         - Thailand
         - Bangkok
 body_classes: 'header-lite fullwidth blogstyling'
+visible: true
 googledesc: 'Our trip has finally begun! These are the first impressions of Bangkok from a first-time Canadian traveller.'
 twitterenable: true
 twittercardoptions: summary

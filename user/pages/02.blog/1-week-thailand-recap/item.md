@@ -10,9 +10,10 @@ taxonomy:
         - blog
     tag:
         - Thailand
-        - 'Chiang Mai'
         - Bangkok
+        - 'Chiang Mai'
 body_classes: 'header-lite fullwidth blogstyling'
+visible: true
 googledesc: 'A 1 week recap of what we''ve been up to in our first week travelling through Bangkok and Chiang Mai in Thailand'
 twitterenable: true
 twittercardoptions: summary

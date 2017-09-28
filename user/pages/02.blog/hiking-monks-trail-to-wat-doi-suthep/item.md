@@ -8,6 +8,7 @@ taxonomy:
         - Thailand
         - 'Chiang Mai'
 body_classes: 'header-lite fullwidth blogstyling'
+visible: true
 googledesc: 'Wat Phra That Doi Suthep is one of Northern Thailand''s most sacred temples.It is ad the top of Doi Suthep and is truly a sight to see.'
 twitterenable: true
 twittercardoptions: summary
