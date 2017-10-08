@@ -16,7 +16,17 @@ abouts:
       heading: September 20, 2017
       subheading: Koh Samui
       body: We were ready for a bit of sunshine and ocean, so we cut our time in Chiang Mai short and hit the islands!
-      align: image      
+      align: image
+    - img: superpro-muay-thai.jpg
+      heading: October 1, 2017
+      subheading: Super Pro Muay Thai
+      body: Finally getting the chance to train in authentic Muay Thai! Only for a week this time around though.
+      align: inverted
+    - img: kohtao.jpg
+      heading: October 8, 2017
+      subheading: Koh Tao
+      body: Time was up at SuperPro so it was time to hop islands and see what life is like on the Island of Turtles.
+      align: image    
     - img: 3.png
       heading:
       alttext: TBD
