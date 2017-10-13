@@ -26,7 +26,12 @@ abouts:
       heading: October 8, 2017
       subheading: Koh Tao
       body: Time was up at SuperPro so it was time to hop islands and see what life is like on the Island of Turtles.
-      align: image    
+      align: image
+    - img: aonang.jpg
+      heading: October 12, 2017
+      subheading: Ao Nang Beach
+      body: We have moved on from Koh Tao to spend our remaining days in Ao Nang beach before we leave for Malaysia.
+      align: inverted   
     - img: 3.png
       heading:
       alttext: TBD
