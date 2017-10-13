@@ -1,4 +1,19 @@
-# v2.0.5
+# v2.0.9
+## 10/04/2017
+1. [](#bugfix)
+    * Fixed string manipulation causing error on some install
+
+# v2.0.8
+## 10/04/2017
+1. [](#new)
+    * Added Logo url to Organization Microdata
+
+# v2.0.7
+## 10/03/2017
+1. [](#new)
+    * Added Organization Microdata
+
+# v2.0.6
 ## 09/10/2017
 1. [](#bugfix)
     * Changed Description

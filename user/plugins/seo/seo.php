@@ -1,13 +1,13 @@
 <?php
 /**
- * SEO v2.0.6
+ * SEO v2.0.9
  *
  * This plugin adds an SEO Tab to every pages for managing SEO data.
  *
  * Licensed under the MIT license, see LICENSE.
  *
  * @package     SEO
- * @version     2.0.5
+ * @version     2.0.9
  * @link        <https://github.com/paulmassen/grav-plugin-seo>
  * @author      Paul Massendari <paul@massendari.com>
  * @copyright   2017, Paul Massendari
@@ -118,10 +118,9 @@ class seoPlugin extends Plugin
         $pattern = '~((\/[^\/]+)+)\/([^\/]+)~';
         $replacement = '$1';
         $outputjson = "";
-        $cleanContent = $this->cleanText ($content, $config);
         $microdata = [];
         $meta = $page->metadata(null);
-        $cleanTitle = $this->cleanString ($page->title());
+
      
        
         if (isset($page->header()->googletitle)) {
@@ -207,7 +206,7 @@ class seoPlugin extends Plugin
             } else {
                // $meta['og:description']['name']     = 'og:description';
                 $meta['og:description']['property'] = 'og:description';
-                $meta['og:description']['content'] =  substr($cleanContent,0,140);
+                $meta['og:description']['content'] =  substr($content,0,140);
             }
             if (isset($page->header()->facebookauthor)) {
               //  $meta['article:author']['name']     = 'article:author';
@@ -363,6 +362,26 @@ class seoPlugin extends Plugin
             
         }
         }
+        if (property_exists($page->header(),'orgaenabled')){
+       if ($page->header()->orgaenabled and $this->config['plugins']['seo']['organization']) {
+        $microdata[] = [
+                  '@context' => 'http://schema.org',
+                  '@type' => 'Organization',
+                  'name' => @$page->header()->orga['name'],
+                  
+                  'address' => [
+                      '@type' => 'PostalAddress',
+                      'streetAddress' => @$page->header()->orga['streetaddress'],
+                      'addressLocality' => @$page->header()->orga['city'],
+                      'addressRegion' => @$page->header()->orga['state'],
+                      'postalCode' => @$page->header()->orga['zipcode'],
+                      ],
+                  'telephone' => @$page->header()->orga['phone'],
+                  'logo' => @$page->header()->orga['logo'],
+                  ];
+           
+       }
+       }
         if (property_exists($page->header(),'restaurantenabled')){
         if ($page->header()->restaurantenabled and $this->config['plugins']['seo']['restaurant']) {
          if (isset($page->header()->restaurant['image'])){
@@ -404,7 +423,7 @@ class seoPlugin extends Plugin
             if (isset($page->header()->article['headline'])){
                $headline =  $page->header()->article['headline'];
             } else {
-                $headline = $cleanTitle;
+                $headline = $page->title();
             }
        if ($page->header()->articleenabled and $this->config['plugins']['seo']['article']) {
         $microdata['article']      = [
@@ -423,7 +442,7 @@ class seoPlugin extends Plugin
             $microdata['article']['description'] = $page->header()->article['description'];
            }
            else {
-             $microdata['article']['description'] = substr($cleanContent,0,140); 
+             $microdata['article']['description'] = substr($content,0,140); 
            };
 
          if (isset($page->header()->article['author'])) {
@@ -524,26 +543,5 @@ class seoPlugin extends Plugin
         $text=str_replace('"', '', $text);
         return htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
     }
-    private function cleanText ($content, $config) {
-        $length = $config['description.length'];       
-        if ($length <=1 ) $length=20; 
- 
-        $content = $this->cleanMarkdown($content);
-        // truncate the content to the number of words set in config
-        $contentSmall = preg_replace('/((\w+\W*){'.$length.'}(\w+))(.*)/', '${1}', $content); // beware if content is less than length words, it will be nulled    
-        if ($contentSmall == '' ) $contentSmall = $content;
- 
-        return $contentSmall;
-    }
-    private function cleanString ($content) {
-        // remove some annoying characters
-        $content = str_replace("&nbsp;",' ',$content);
-        $content = str_replace('"',"'",$content);
-        $content = trim($content);
-        // Removes special chars.
-        $content = \Grav\Plugin\Admin\Utils::slug($content);
-        return $content;
-    }
-
 
 }

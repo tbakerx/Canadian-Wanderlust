@@ -7,7 +7,6 @@ form:
       fields:
         seo:
           type: tab
-          field_classes: fixoverlap
           title: SEO
 
           fields:
@@ -283,10 +282,55 @@ form:
                                       type: text
                                       label: Wikipedia or official URL
                                       field_classes: togglemusicevent
+
+                    header.conditional_orga:
+                      type: conditional
+                      condition: "config.plugins.seo.organization ? 'true' : 'false'"
+                      fields:
+                        header.orgafieldset:
+                          type: fieldset
+                          title: Organization Microdata
+                          collapsed: true
+                          collapsible: true
+                          fields:
+                            header.orgaenabled:
+                              type: toggle
+                              label: PLUGINS.SEO.ENABLEEVENT
+                              default: 0
+                              options:
+                                  1: PLUGIN_ADMIN.YES
+                                  0: PLUGIN_ADMIN.NO
+                              validate:
+                                  type: bool
+                            header.orga.name:
+                              type: text
+                              label: Organization name
+                            header.orga.streetaddress:
+                              type: text
+                              label: Organization street
+                            header.orga.city:
+                              type: text
+                              label: Organization City
+                            header.orga.state:
+                              type: text
+                              label: Organization State
+                            header.orga.zipcode:
+                              type: text
+                              label: Organization Zip Code
+                            header.orga.phone:
+                              type: text
+                              label: Organization Phone
+                            header.orga.logo:
+                              type: text
+                              label: Url to Organization Logo 
+                              placeholder: 'include http://'
+                              
+
                     header.conditional_new_entries:
                       type: conditional
                       condition: "config.plugins.seo.event ? 'true' : 'false'"
                       fields:
+                        
                         header.eventfieldset:
                           type: fieldset
                           title: Event Microdata
@@ -295,7 +339,7 @@ form:
                           fields:
                             header.eventenabled:
                               type: toggle
-                              label: PLUGINS.SEO.ENABLEEVENT
+                              label: PLUGINS.SEO.ENABLEORGA
                               default: 0
                               options:
                                   1: PLUGIN_ADMIN.YES

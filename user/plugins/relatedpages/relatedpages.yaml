@@ -1,6 +1,6 @@
 enabled: true                   # set to false to disable this plugin completely
 limit: 5                        # the number of related pages to display
-show_score: true                # toggle to determine if scores should be displayed in output
+show_score: false                # toggle to determine if scores should be displayed in output
 score_threshold: 20             # minimum score needed to show up in the list
 filter:                         # filter a configurable collection of pages to compare
     items:

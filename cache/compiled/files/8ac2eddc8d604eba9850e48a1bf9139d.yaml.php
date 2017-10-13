@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://feed/feed.yaml',
-    'modified' => 1504390800,
+    'modified' => 1507465115,
     'data' => [
         'enabled' => true,
         'limit' => 10,
-        'description' => 'My Feed Description',
+        'description' => 'Canadian Wanderlusts Blog',
         'lang' => 'en-us',
-        'length' => 500,
+        'length' => 300,
         'enable_json_feed' => false
     ]
 ];

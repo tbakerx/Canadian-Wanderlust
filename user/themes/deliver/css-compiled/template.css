@@ -273,7 +273,7 @@ td{padding:0.5rem;border:1px solid #d8d8d8;}
 }
 @media only all and (max-width:47.938em){.list-item .list-blog-date, .list-item .list-blog-author{display:block;width:100%;clear:both;}
 }
-.blog-content-item .list-blog-padding > p:nth-child(2){font-size:1.2rem;}
+/*.blog-content-item .list-blog-padding > p:nth-child(2){font-size:1.2rem;}*/
 .tags{margin:0;padding:0;display:inline;background-color:rgba(101, 97, 97, 0.1);padding:0.7rem 1rem;margin-bottom:0.2rem;list-style:none;text-align:center;}
 .tags li{display:inline-block;font-size:1rem;text-transform:uppercase;font-family:"novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;}
 .tags li a{color:#9A9898;}

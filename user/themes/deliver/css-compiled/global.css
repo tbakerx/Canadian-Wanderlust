@@ -1,6 +1,9 @@
 body {
   margin: 0; }
 
+body p{
+  font-size: 1.05rem;
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -5835,4 +5838,15 @@ img::-moz-selection {
 #about {
   background: url(../images/dark_wood.png);
   color:#fff;
+}
+
+.related{
+  margin-bottom: 10px;
+}
+.related img{
+  width: 80%;
+  height: auto;
+}
+.related h5{
+  text-align: center;
 }

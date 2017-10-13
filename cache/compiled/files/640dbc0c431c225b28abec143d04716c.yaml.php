@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://relatedpages/relatedpages.yaml',
-    'modified' => 1504390800,
+    'modified' => 1507571069,
     'data' => [
         'enabled' => true,
         'limit' => 5,
-        'show_score' => true,
+        'show_score' => false,
         'score_threshold' => 20,
         'filter' => [
             'items' => [
