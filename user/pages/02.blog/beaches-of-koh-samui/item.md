@@ -22,6 +22,7 @@ article:
 facebookenable: true
 facebookdesc: 'We decided to leave Chiang Mai behind for now and head for the islands. And where better to go to have drinks on the beach, do some snorkeling and explore than Koh Samui! As Thailand''s second largest island with long stretches of beautiful beaches, this is exactly where we want to be!'
 facebookimg: /blog/beaches-of-koh-samui/a-koh-samui-island.jpg
+author: 'Tim Baker'
 ---
 
 We had originally planned to stay in Chiang Mai for 2 full weeks. We had the foresight however, to only book the first week and assess partway through whether we wanted to continue and book another week at the hostel (or a different one in the city) or move on. We gave this some real consideration but eventually decided that it was, in fact, time to move on. On the recommendations of many, we considered going and spending a little while in Pai, however taking into account Livia's extreme motion sickness and the route to Pai's reputation, we decided against this as well. At long last, we came to a decision: We were ready for some island life!

@@ -10,3 +10,4 @@ features:
 	  image: "user/pages/01.home/_whoweare/livia.jpg"
 	  text: "I am planning on becoming an accountant, and have finished my first two years of school at Camosun College in Victoria BC. I've decided to take a gap year to travel with Tim to celebrate his (almost) graduation I will be returning to school after our travels to finsh off my degree and work towards becoming a Chartered Professional Accountant. Although my true passion in life is sleeping."
 ---
+#About Us

@@ -1,0 +1,6 @@
+enabled: false
+route: /
+instagram_feed:
+  count: '5'
+  username: canadianwanderlust_
+  cache_expires: 300
