@@ -8,6 +8,9 @@ logs/popularity/*
 images/*
 user/data/*
 user/accounts/*
+user/pages/01.home/_gallery/*.JPG
+user/pages/01.home/_gallery/*.jpg
+user/pages/01.home/_gallery/*.png
 
 # OS Generated
 .DS_Store*
