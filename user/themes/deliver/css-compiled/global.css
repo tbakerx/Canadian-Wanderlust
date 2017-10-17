@@ -3455,7 +3455,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   color: #95a5a6; }
 
 .pagination {
-  display: inline-block;
+  display: block;
   padding-left: 0;
   margin: 21px 0;
   border-radius: 4px; }
@@ -3463,14 +3463,21 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .pagination > li {
   display: inline; }
 
+.pagination .current{
+  background-color: #0f7864;
+}
+.pagination .disabled{
+  display: none;
+}
+
 .pagination > li > a, .pagination > li > span {
   position: relative;
   float: left;
   padding: 10px 15px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #ffffff;
-  background-color: #fed136;
+  color: #fff;
+  background-color: #00d173;
   border: 1px solid transparent;
   margin-left: -1px; }
 
