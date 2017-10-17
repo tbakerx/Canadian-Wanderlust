@@ -9,11 +9,15 @@ body_classes: 'header-lite fullwidth blogstyling'
 menu: Blog
 content:
     items: '@self.children'
-    limit: 15
+    limit: 5
     order:
         by: date
         dir: desc
     pagination: '1'
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 blog_url: blog
 bg_color: '#B4B093'
 feed:
