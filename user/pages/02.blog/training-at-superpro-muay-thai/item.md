@@ -9,6 +9,7 @@ taxonomy:
         - Thailand
         - 'Koh Samui'
         - 'Muay Thai'
+        - Islands
 body_classes: 'header-lite fullwidth blogstyling'
 visible: true
 twitterenable: true
