@@ -6,6 +6,6 @@ keywords:
   enabled: true
   length: 20
 facebook:
-  enabled: true
+  enabled: false
 twitter:
-  enabled: true
+  enabled: false
