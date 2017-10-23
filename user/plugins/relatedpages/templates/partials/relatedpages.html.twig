@@ -7,7 +7,7 @@
                 {% if config.plugins.relatedpages.show_score %}
                     <span class="score">{{ score }}</span>
                 {% endif %}
-                <h5><a href="{{ related.url }}" title="{{ related.title }}">{{ related.media.images|first.html }}{{ related.title }}</a></h5>
+                <h5><a href="{{ related.url }}" title="{{ related.title }}">{{ related.media.images|first.quality(35).html }}{{ related.title }}</a></h5>
             </li>
         {% endif %}
     {% endfor %}

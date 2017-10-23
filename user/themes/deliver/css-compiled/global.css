@@ -5662,11 +5662,11 @@ section h3 {
 aside.clients img {
   margin: 50px auto; }
 
-section#contact {
+/*section#contact {
   background-color: #222;
   background-image: url(../img/map-image.png);
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; }*/
 
 section#contact h2 {
   color: #fff; }
@@ -5674,9 +5674,17 @@ section#contact h2 {
 section#contact .form-group {
   margin-bottom: 25px; }
 
+section#contact .form-field{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width:auto;
+}
+
+
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px; }
+  width: 100%;
+  padding: 5px; }
 
 section#contact .form-group input.form-control {
   height: auto; }
@@ -5859,6 +5867,15 @@ img::-moz-selection {
 }
 
 #gallery h1{
+  color:#555;
+}
+
+#contact{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#contact h1{
   color:#555;
 }
 

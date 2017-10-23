@@ -4,9 +4,12 @@ refresh_prevention: false
 files:
   multiple: false
   limit: 10
-  filesize: 5
   destination: self@
   avoid_overwriting: false
   random_name: false
   accept:
     - 'image/*'
+  filesize: 5
+recaptcha:
+  site_key: 6LdazzEUAAAAAOO09gtIraiU2K5ApYBtQmcIGoV8
+  secret_key: 6LdazzEUAAAAAJz5NRgw7wwgW2CDgdxMBo6EFhZw

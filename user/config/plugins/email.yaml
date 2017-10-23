@@ -9,6 +9,8 @@ mailer:
     server: localhost
     port: 25
     encryption: none
+    user: canadia1
+    password: Wanderlust55+
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
