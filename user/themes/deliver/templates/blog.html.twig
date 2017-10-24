@@ -36,6 +36,15 @@
 			{% if config.plugins.pagination.enabled and collection.params.pagination %}
 			{% include 'partials/pagination.html.twig' with {'pagination':collection.params.pagination} %}
 			{% endif %}
+			
+			{% if config.plugins.socialbuttons.enabled%}
+            <div class="sidebar-content">
+                <h5>Share With Friends</h5>
+            {% include 'partials/socialbuttons.html.twig' with {'url' : page.url} %}
+            </div>
+            <br>
+            {% endif %}
+			
 		</div>
 		<div id="sidebar" class="g-block size-1-3 pure-u-1-3">
 			{% include 'partials/sidebar.html.twig' %}
