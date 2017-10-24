@@ -16,7 +16,7 @@ home:
   alias: /home
   hide_in_urls: false
 pages:
-  theme: deliver
+  theme: canadianwanderlust
   order:
     by: default
     dir: asc
@@ -118,8 +118,8 @@ images:
   auto_fix_orientation: false
 media:
   enable_media_timestamp: false
-  upload_limit: 0
   auto_metadata_exif: false
+  upload_limit: 2097152
 session:
   enabled: true
   timeout: 1800
