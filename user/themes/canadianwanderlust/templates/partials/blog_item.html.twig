@@ -76,5 +76,9 @@
         </p>
     {% endif %}
 
+    {% if config.plugins.jscomments.enabled %}
+  {{ jscomments('disqus')|raw }}
+{% endif %}
+
     </div>
 </div>
