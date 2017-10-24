@@ -76,9 +76,11 @@
         </p>
     {% endif %}
 
-    {% if config.plugins.jscomments.enabled %}
-  {{ jscomments('disqus')|raw }}
-{% endif %}
+    {% if big_header %}
+      {% if config.plugins.jscomments.enabled %}
+      {{ jscomments('disqus')|raw }}
+      {% endif %}
+    {% endif %}
 
     </div>
 </div>
