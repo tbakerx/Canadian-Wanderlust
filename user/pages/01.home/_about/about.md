@@ -31,7 +31,12 @@ abouts:
       heading: October 12, 2017
       subheading: Ao Nang Beach
       body: We have moved on from Koh Tao to spend our remaining days in Ao Nang beach before we leave for Malaysia.
-      align: inverted   
+      align: inverted
+    - img: klcc.jpg
+      heading: October 26, 2017
+      subheading: Kuala Lumpur - Malaysia
+      body: Visas time was almost up in Thailand so we hopped a flight across the border to see Malaysia. First stop, Kuala Lumpur!
+      align: image   
     - img: 3.png
       heading:
       alttext: TBD
