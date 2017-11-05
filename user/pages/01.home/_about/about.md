@@ -37,6 +37,16 @@ abouts:
       subheading: Kuala Lumpur - Malaysia
       body: Visas time was almost up in Thailand so we hopped a flight across the border to see Malaysia. First stop, Kuala Lumpur!
       align: image   
+    - img: cameron-highlands.jpg
+      heading: November 2, 2017
+      subheading: Cameron Highlands
+      body: We're off to higher altitudes and lower temperatures in the Cameron Highlands. This mountainous region is home to valleys of tea plantations and farms as far as the eye can see.
+      align: inverted
+    - img: ipoh.jpg
+      heading: November 5, 2017
+      subheading: Ipoh
+      body: Decided to stop off in Ipoh for a few days on our way to Penang. Cameron Highlands left us wanting to see more of Malaysias landscape and nature and we're hoping to get our fill here before hitting the next city.
+      align: image  
     - img: 3.png
       heading:
       alttext: TBD

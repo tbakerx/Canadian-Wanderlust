@@ -57,9 +57,6 @@ quicklinks:
   -
     text: Reviews
     url: 'base_url:reviews'
-  -
-    text: 'Contact Us'
-    url: 'base_url:contact'
 header_options:
   arrows: 'false'
   autoslide: 'false'
