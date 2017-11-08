@@ -46,7 +46,12 @@ abouts:
       heading: November 5, 2017
       subheading: Ipoh
       body: Decided to stop off in Ipoh for a few days on our way to Penang. Cameron Highlands left us wanting to see more of Malaysias landscape and nature and we're hoping to get our fill here before hitting the next city.
-      align: image  
+      align: image
+    - img: penang.jpg
+      heading: November 2, 2017
+      subheading: Penang
+      body: We arrived in Penang after some serious consideration of whether to postpone our visit due to the major flooding in the region. We are staying in Georgetown and thankfully this area has recovered well.
+      align: inverted
     - img: 3.png
       heading:
       alttext: TBD
