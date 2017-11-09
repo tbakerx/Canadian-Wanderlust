@@ -11,6 +11,7 @@ taxonomy:
         - Thailand
         - Islands
         - 'Koh Tao'
+        - Beaches
 body_classes: 'header-lite fullwidth blogstyling'
 visible: true
 twitterenable: true

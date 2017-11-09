@@ -7,8 +7,9 @@ taxonomy:
         - blog
     tag:
         - Thailand
-        - 'Koh Samui'
         - Islands
+        - 'Koh Samui'
+        - Beaches
 body_classes: 'header-lite fullwidth blogstyling'
 visible: true
 googledesc: 'After a week in Chiang Mai, we were ready for some island life and left for the beaches of Koh Samui! Time for some sandy beaches and sun!'
