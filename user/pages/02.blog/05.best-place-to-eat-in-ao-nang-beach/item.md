@@ -1,5 +1,16 @@
 ---
 title: 'Best Place to Eat in Ao Nang Beach'
+published: true
+date: '10-11-2017 17:28'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - 'Ao Nang'
+        - Krabi
+        - Thailand
+        - Beaches
+        - Islands
 body_classes: 'header-lite fullwidth blogstyling'
 googledesc: 'If you''ll be in Ao Nang Beach area for a while, and you don''t give this little restaurant a try, you''re nuts! We loved Original Thai Food!'
 twitterenable: true
@@ -53,6 +64,6 @@ On our last night in the area we went for dinner with a little gift for them (I 
 
 There are times when you meet people and just can't help but think that they just deserve so much more, this is one of those cases. For people this great, I really wish that I had the means to do more to repay them for their kindness and generosity. But as of now, I'm stretching my dollars while travelling, but will do what I can with the skills I have.
 
-If you would like to help out, their Google Maps page is **[here,](https://www.google.com.my/maps/place/Original+Thai+Food/@8.0349546,98.8280709,17z/data=!4m5!3m4!1s0x3051c006c9268571:0xd4567fbfc4009890!8m2!3d8.0349493!4d98.8302649?hl=en?target=_blank)** and if I have done a good enough job to persuade you, **please give them a 5 star rating**. You don't have to write a review, as you may not have been there but ratings are good too.
+> If you would like to help out, their Google Maps page is **[here,](https://www.google.com.my/maps/place/Original+Thai+Food/@8.0349546,98.8280709,17z/data=!4m5!3m4!1s0x3051c006c9268571:0xd4567fbfc4009890!8m2!3d8.0349493!4d98.8302649?hl=en?target=_blank)** and if I have done a good enough job to persuade you, **please give them a 5 star rating**. You don't have to write a review, as you may not have been there but ratings are good too.
 
 If you are ever travelling through this area, this was certainly one of the highlights of our trip so don't miss your chance to try my self-proclaimed "Best Restaurant in Ao Nang"... Original Thai Food!

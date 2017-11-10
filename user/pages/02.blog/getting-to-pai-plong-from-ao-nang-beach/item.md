@@ -5,10 +5,11 @@ taxonomy:
     category:
         - blog
     tag:
+        - 'Ao Nang'
+        - Krabi
         - Thailand
         - Islands
         - Beaches
-        - Krabi
 body_classes: 'header-lite fullwidth blogstyling'
 visible: true
 googledesc: 'Getting to Pai Plong from Ao Nang is incredibly easy and totally worth doing! Avoid the crowd and find a little peace at Pai Plong Beach.'
