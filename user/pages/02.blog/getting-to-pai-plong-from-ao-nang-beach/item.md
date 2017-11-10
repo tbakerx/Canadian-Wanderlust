@@ -11,10 +11,16 @@ taxonomy:
         - Krabi
 body_classes: 'header-lite fullwidth blogstyling'
 visible: true
+googledesc: 'Getting to Pai Plong from Ao Nang is incredibly easy and totally worth doing! Avoid the crowd and find a little peace at Pai Plong Beach.'
 twitterenable: true
 twittercardoptions: summary
+twittershareimg: /blog/getting-to-pai-plong-from-ao-nang-beach/an-empty-beach.jpg
+twitterdescription: 'Getting to Pai Plong from Ao Nang is incredibly easy and totally worth doing! Avoid the crowd and find a little peace at Pai Plong Beach.'
 articleenabled: false
 facebookenable: true
+facebooktitle: 'Getting to Pai Plong from Ao Nang Beach | Canadian Wanderlust'
+facebookdesc: 'Getting to Pai Plong from Ao Nang is incredibly easy and totally worth doing! Avoid the crowd and find a little peace at Pai Plong Beach.'
+facebookimg: /blog/getting-to-pai-plong-from-ao-nang-beach/an-empty-beach.jpg
 author: 'Tim Baker'
 ---
 
