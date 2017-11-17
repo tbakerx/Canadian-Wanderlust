@@ -50,7 +50,7 @@ What surprised us the most though, was that amongst this huge array of options, 
 
 We didn't do much in the way of watersport stuff at the beach as it was either surprisingly inaccessable, or wildly overpriced. We had hoped to try paddleboarding but the only place we found to rent was in Pai Plong but it was a part of the resort and only resort guests were allowed to rent. We did however, manage to get our hands on a 2-person kayak for an hour and used it to go exploring the great limestone cliffs a little ways out in the ocean. This was a blast, it was a little hard to get started with all the waves and whatnot but once we got a ways out it was smooth sailing!
 
-[plugin:youtube](https://www.youtube.com/watch?v=qJWDhFsBVJ4&t=1s)
+[plugin:youtube](https://www.youtube.com/watch?v=qJWDhFsBVJ4)
 <p style= "text-align: center"><b>Good times in Ao Nang</b></p> 
 
 And last but not least, one of the major highlights of Ao Nang is that it faces the perfect direction for amazing sunsets! Along the beachfront strip, there are numerous bars and restaurants that face this sunset or you can go and sit either on the rock wall that separates the street from the beach, or go and chill on the beach itself. Depending on where you view this sunset from, at least during the time that we were there, you could either watch the sun set down over the ocean or down behind the huge limestone cliffs that surround the bay. This place certainly ranks in my personal top 5 most beautiful sunsets.
