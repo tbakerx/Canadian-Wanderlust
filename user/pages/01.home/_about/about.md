@@ -52,6 +52,11 @@ abouts:
       subheading: Penang
       body: We arrived in Penang after some serious consideration of whether to postpone our visit due to the major flooding in the region. We are staying in Georgetown and thankfully this area has recovered well.
       align: inverted
+    - img: langkawi.jpg
+      heading: November 13, 2017
+      subheading: Langkawi
+      body: We could only manage staying away from the beaches and ocean for so long. We have landed in Langkawi and are loving being back with the sun, sand, and water. The really cheap beers don't hurt either :)
+      align: image
     - img: 3.png
       heading:
       alttext: TBD

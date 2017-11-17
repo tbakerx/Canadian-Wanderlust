@@ -5,11 +5,11 @@ taxonomy:
     category:
         - blog
     tag:
-        - 'Ao Nang'
-        - Krabi
         - Thailand
         - Islands
         - Beaches
+        - 'Ao Nang'
+        - Krabi
 body_classes: 'header-lite fullwidth blogstyling'
 visible: true
 googledesc: 'Getting to Pai Plong from Ao Nang is incredibly easy and totally worth doing! Avoid the crowd and find a little peace at Pai Plong Beach.'
@@ -36,7 +36,7 @@ Livia and I first discovered this place by seeing a floating dock in the distanc
 
 We set off the next morning really early with coffee in hand to try and catch the sunrise in peace and isolation! Chances are, if you're staying in a hotel in Ao Nang Beach your hotel will be somewhere along the main road that ours (Harvest Hotel) was. And if so, you'd be insane to not try eating at this little restaurant called Original Thai Food. Shameless plug for a friend, but these people really are amazing! 
 
-Read what we have to say about them **[here](https://www.canadianwanderlust.com/blog/best-place-to-eat-in-ao-nang-beach?target=_blank).** 
+> Click the link to read what else we have to say about **[Original Thai Food](https://www.canadianwanderlust.com/blog/best-place-to-eat-in-ao-nang-beach?target=_blank).** 
 
 Back to my main point, you will likely have made the walk down to the beach along this road a time or two. When you reach the corner where this road hits the beach **(1)**, there will be a smaller road to your left. You can take this road or, as we did, walk parallel to it on the beach towards the far end of Ao Nang. When the massage parlours along that road end and just before you reach the rocky cliffs, you should look for this bridge **(2)**:
 
