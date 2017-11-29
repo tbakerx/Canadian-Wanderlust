@@ -57,6 +57,16 @@ abouts:
       subheading: Langkawi
       body: We could only manage staying away from the beaches and ocean for so long. We have landed in Langkawi and are loving being back with the sun, sand, and water. The really cheap beers don't hurt either :)
       align: image
+    - img: kohmook.jpg
+      heading: November 26, 2017
+      subheading: Koh Mook
+      body: We've been mostly exploring fairly typical "touristy" spots on our trip with plenty of luxuries and decided that it was time to do some island hopping to the less popular islands of Thailand and get a better feel for the real island life. We're staying in small bungalows near the beach for $10/night.
+      align: inverted
+    - img: kolanta.jpg
+      heading: November 29, 2017
+      subheading: Ko Lanta
+      body: Realizing that many of the less popular islands are either nearly impossible to get to or are only resort islands and insanely expensive, we have decided just to travel to Ko Lanta for a few days on our way North back to Bangkok before flying to Vietnam.
+      align: image
     - img: 3.png
       heading:
       alttext: TBD
