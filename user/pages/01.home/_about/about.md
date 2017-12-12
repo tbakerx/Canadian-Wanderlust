@@ -67,12 +67,27 @@ abouts:
       subheading: Ko Lanta
       body: Realizing that many of the less popular islands are either nearly impossible to get to or are only resort islands and insanely expensive, we have decided just to travel to Ko Lanta for a few days on our way North back to Bangkok before flying to Vietnam.
       align: image
+    - img: aonang.jpg
+      heading: December 2, 2017
+      subheading: Ao Nang Beach
+      body: We arrived back in Ao Nang Beach for a few days to check in on our favorite restaurant and to spend a little bit of beach time before a flight from Krabi to Bangkok.
+      align: inverted
+    - img: bangkok.jpg
+      heading: December 5, 2017
+      subheading: Bangkok
+      body: We arrived back in Bangkok for a few day layover before making our trip to country number 3... Vietnam! It's much less overwhelming a second time around!
+      align: image
+    - img: saigon.jpg
+      heading: December 10, 2017
+      subheading: Ho Chi Minh (Saigon)
+      body: We made it to Vietnam today, country number 3 on our trip, and will meet up with our old University roommate who is over here teaching English.
+      align: inverted
     - img: 3.png
       heading:
       alttext: TBD
       subheading:
       body:
-      align: inverted        
+      align: inverted       
 ---
 
 #Trip Timeline
