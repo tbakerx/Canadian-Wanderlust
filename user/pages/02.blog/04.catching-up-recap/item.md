@@ -2,9 +2,19 @@
 title: 'Catching Up - A Recap of the last 2 months'
 published: true
 date: '15-01-2018 16:08'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - Thailand
+        - Islands
+        - Beaches
+        - Bangkok
+        - Malaysia
 body_classes: 'header-lite fullwidth blogstyling'
 twitterenable: true
 twittercardoptions: summary
+twittershareimg: /blog/catching-up-recap/a-klcc.jpg
 articleenabled: false
 facebookenable: true
 author: 'Tim Baker'
@@ -46,7 +56,7 @@ Well, I guess now is as good of a time as any to get into our 8 things to do in 
 * I suppose this one could be combined with the above item, but we felt it deserved it's own. Every night from 6pm until 11pm at the fountain in the above-mentioned KLCC Park, there is a famous water fountain show. You can watch the sunset as the fountains begin to shoot and dance around and when it gets dark it lights up in a dazzling display of colors and patterns. It really makes for an nice night out and from here you can also admire the Petronas Towers, lit up in all their glory.
 
 ![KLCC Fountain](klccfountain.jpg)
-<p style= "text-align: center"><b>KLCC Park</b></p>
+<p style= "text-align: center"><b>KLCC Fountain Show</b></p>
 3. ##### Central Market and Petaling Street
 * These are actually two seperate markets, but you almost wouldn't know. The Petaling street is the sprawling market in Chinatown and its borders extend right up to the building which houses the Central Market. You can find nearly anything here and, depending on your haggling skills, you can either get amazing deals and discounts or pay WAY too much for things. But hey, that's part of the fun! We didn't spend too much time here since everything that we buy has to find some place in our bag for the following 4 months. I did however end up buying two really nice watches from a lady for less than $20CAD. One is an "Omega" and the other is a "Rolex." The quotations are of course meant to mean that I am fully aware, as everyone should be, that they are fakes. If you go here expecting to find any real brand name items for cheap, you will be sorely disappointed. That said, 2 months later and the Omega is still functioning perfectly and the Rolex has not even been opened. Much better lifespan than any cheap watch I have gotten in Canada.
 
@@ -78,7 +88,7 @@ Well, I guess now is as good of a time as any to get into our 8 things to do in 
 
 And finally, as promised, here is Livia's video:
 
-[plugin:youtube](https://www.youtube.com/watch?v=lvjIPuqgM-0&t=271s)
+[plugin:youtube](https://www.youtube.com/watch?v=lvjIPuqgM-0)
 <p style= "text-align: center"><b>8 Things to Do in Kuala Lumpur</b></p> 
 
 ##### Cameron Highlands
@@ -130,11 +140,11 @@ So here we go, cool things we did in Langkawi:
 
 ![Rooftop Sunset](nestsunset.jpg)
 <p style= "text-align: center"><b>The view from the rooftop</b></p>
-4. ##### Lagenda Park & Eagle Square
-* These 2 are very popular tourist attractions and once again, were really nice to go and see but were ultimately underwhelming. Lagenda Park is a beautiful park to go and wander around in and look at all the statues and art but that's about it. Grab a coffee and your camera in the morning and go for a stroll and you'll have a nice time for a few hours. Eagle Square isn't much more than a massive eagle statue near the main jetty terminal for the island. It's cool to see and snap some photos of but there isn't really anything to do there.
+4. ##### Legenda Park & Eagle Square
+* These 2 are very popular tourist attractions and once again, were really nice to go and see but were ultimately underwhelming. Legenda Park is a beautiful park to go and wander around in and look at all the statues and art but that's about it. Grab a coffee and your camera in the morning and go for a stroll and you'll have a nice time for a few hours. Eagle Square isn't much more than a massive eagle statue near the main jetty terminal for the island. It's cool to see and snap some photos of but there isn't really anything to do there.
 
-![Lagenda Park](lagendapark.jpg)
-<p style= "text-align: center"><b>Lagenda Park entrance</b></p>
+![Legenda Park](lagendapark.jpg)
+<p style= "text-align: center"><b>Legenda Park entrance</b></p>
 
 ![Eagle Square](eaglesquare.jpg)
 <p style= "text-align: center"><b>The big eagle at Eagle Square</b></p>
