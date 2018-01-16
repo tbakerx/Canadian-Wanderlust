@@ -82,6 +82,31 @@ abouts:
       subheading: Ho Chi Minh (Saigon)
       body: We made it to Vietnam today, country number 3 on our trip, and will meet up with our old University roommate who is over here teaching English.
       align: inverted
+    - img: vungtau.jpg
+      heading: December 14, 2017
+      subheading: Vung Tau
+      body: Our friend David had some time off after we showed up in Saigon, so we decided to head to Vung Tau for a few days. It is a little beach town a few hours East of Saigon where we surfed and had free reign of a strange amusement park.
+      align: image
+    - img: muine.jpg
+      heading: December 23, 2017
+      subheading: Mui Ne
+      body: We made the trip to Mui Ne for Christmas with a bunch of David's work colleagues. We didn't get a chance to surf but we did sled down sand dunes on Christmas day.
+      align: inverted
+    - img: nhatrang.jpg
+      heading: January 3, 2018
+      subheading: Nha Trang
+      body: To start exploring more of Vietnam, we headed a little ways North to Nha Trang, another beach town. We will spend a few days here, a few in Dalat, and a few in Cam Ranh Bay before continuing North.
+      align: image
+    - img: dalat.jpg
+      heading: January 8, 2018
+      subheading: Dalat
+      body: Dalat is a nice natural town in the mountains of Vietnam with plenty of natural activities like mountain biking, hiking and canyoning. It will be nice to escape the heat for a while.
+      align: inverted
+    - img: hoian.jpg
+      heading: January 15, 2018
+      subheading: Hoi An
+      body: Hoi An is a nice and small town with a blend of influences primarily from the French, Chinese, and Japanese. It has been a UNESCO Heritage Site since 1999 and is well known for its Ancient Town. We're excited to get a chance to explore here.
+      align: image      
     - img: 3.png
       heading:
       alttext: TBD
