@@ -106,13 +106,28 @@ abouts:
       heading: January 15, 2018
       subheading: Hoi An
       body: Hoi An is a nice and small town with a blend of influences primarily from the French, Chinese, and Japanese. It has been a UNESCO Heritage Site since 1999 and is well known for its Ancient Town. We're excited to get a chance to explore here.
-      align: image      
+      align: image  
+    - img: hue.jpg
+      heading: January 18, 2018
+      subheading: Hue
+      body: We only got to stay in Hue for a few days on our way North but it was a really nice place. The key attraction is the Imperial City and it was awesome to get the chance to roam around and explore it.
+      align: inverted
+    - img: hanoi.jpg
+      heading: January 21, 2018
+      subheading: Hanoi
+      body: In Vietnam's capital Hanoi, we saw where Ho Chi Minh lived and is buried, took a cooking class, and partied with an insane crowd of Vietnamese people after they qualified for the U23 Asia Cup Final.
+      align: image
+    - img: saigon.jpg
+      heading: January 26, 2018
+      subheading: Ho Chi Minh
+      body: Just popping in again to grab our luggage that we left with a friend. Watched the Asia Cup final on Bui Vien street, which they unfortunately lost, but the Vietnamese partied like they won anyways.
+      align: inverted    
     - img: 3.png
       heading:
       alttext: TBD
       subheading:
       body:
-      align: inverted       
+      align: image       
 ---
 
 #Trip Timeline
