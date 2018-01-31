@@ -7,9 +7,9 @@ taxonomy:
         - blog
     tag:
         - Thailand
+        - Bangkok
         - Islands
         - Beaches
-        - Bangkok
         - Malaysia
 body_classes: 'header-lite fullwidth blogstyling'
 twitterenable: true
@@ -26,6 +26,8 @@ content:
         dir: desc
     pagination: '1'
 ---
+
+#### *Update: Livia made a wonderful video to go along with this post. You can find it embedded at the bottom of this post. 
 
 So... It's been a while, hasn't it?
 
@@ -178,3 +180,6 @@ We eventually made it back to Bangkok, where we stayed for a while before saying
 Well there you have it everyone, I'm all caught up (mostly, there's still Vietnam after all). I told you it would be long! I warned you. But congrats for sticking with it and I must say I'm impressed that you got this far! I hope that you enjoyed reading it and as usual, feel free to message us if you want to hear more about any of our strange excursions, or test out my nifty new commenting system below,  and don't be afraid to share this post with friends!
 
 Thanks again for taking the time to read my (somewhat coherent) ramblings!
+
+[plugin:youtube](https://youtu.be/ABucP9--AiM)
+<p style= "text-align: center"><b>Liv's Recap Video (Her best one yet in my opinion!) Let us know what you think!</b></p> 
