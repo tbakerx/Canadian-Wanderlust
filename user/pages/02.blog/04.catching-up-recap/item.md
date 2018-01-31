@@ -12,11 +12,15 @@ taxonomy:
         - Beaches
         - Malaysia
 body_classes: 'header-lite fullwidth blogstyling'
+googledesc: 'Well, we''ve been real busy lately and this is a little late! But here we go, a recap of our time in Malaysia and another chunk of Thailand'
 twitterenable: true
 twittercardoptions: summary
 twittershareimg: /blog/catching-up-recap/a-klcc.jpg
+twitterdescription: 'Well, we''ve been real busy lately and this is a little late! But here we go, a recap of our time in Malaysia and another chunk of Thailand'
 articleenabled: false
 facebookenable: true
+facebookdesc: 'Well, we''ve been incredibly busy lately and this is a little late! But here we go, a recap of our time in Malaysia and another chunk of Thailand. It''s a long post but should be our most interesting one yet, you be the judge!'
+facebookauthor: 'https://www.facebook.com/Canadianwanderlust/'
 author: 'Tim Baker'
 content:
     items: '@self.children'
