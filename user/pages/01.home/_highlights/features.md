@@ -3,12 +3,12 @@ title: Service Highlights
 menu: Highlights
 class:
 features:
-	- header: 49: Foreign Beers Tasted
+	- header: 52: Foreign Beers Tasted
 	  icon: beer
-	- header: 25,029.9: Kms Travelled
+	- header: 26,236.2: Kms Travelled
 	  icon: plane
-	- header: 3: Countries Visited
+	- header: 4: Countries Visited
 	  icon: globe
-	- header: 40: Places Stayed
+	- header: 46: Places Stayed
 	  icon: bed
 ---

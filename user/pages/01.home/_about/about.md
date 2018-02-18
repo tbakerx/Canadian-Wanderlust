@@ -121,6 +121,21 @@ abouts:
       heading: January 26, 2018
       subheading: Ho Chi Minh
       body: Just popping in again to grab our luggage that we left with a friend. Watched the Asia Cup final on Bui Vien street, which they unfortunately lost, but the Vietnamese partied like they won anyways.
+      align: inverted
+    - img: kohtao.jpg
+      heading: Feb 2, 2018
+      subheading: Koh Tao
+      body: Back in Thailand for the 3rd time, we have just landed in Koh Tao. We are meeting back up with the lovely Australian girls we travelled Vietnam with for the last leg of their trip. Looking forward to some beach time and doing our SSI Open Water Scuba certification!
+      align: inverted
+    - img: kohsamui.jpg
+      heading: February 10, 2018
+      subheading: Koh Samui
+      body: Our time in Koh Tao is over and now it's time to meet up with another friend on Koh Samui. He is a buddy from back home that I used to work with and this is his first stop in Thailand apart from landing in Bangkok. After countless hours fantasizing about a trip like this in the work truck, it's hard to believe that it actually worked out.
+      align: image
+    - img: siemreap.jpg
+      heading: February 17, 2018
+      subheading: Siem Reap - Cambodia
+      body: On to country no. 4! We just made it through the Cambodia border crossing at PoiPet and are on our way to Siem Reap. Of course, Angkor Wat is at the top of our list of todo's and we can't wait!
       align: inverted    
     - img: 3.png
       heading:
