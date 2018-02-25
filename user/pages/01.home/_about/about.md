@@ -136,7 +136,12 @@ abouts:
       heading: February 17, 2018
       subheading: Siem Reap - Cambodia
       body: On to country no. 4! We just made it through the Cambodia border crossing at PoiPet and are on our way to Siem Reap. Of course, Angkor Wat is at the top of our list of todo's and we can't wait!
-      align: inverted    
+      align: inverted
+    - img: phnompenh.jpg
+      heading: February 22, 2018
+      subheading: Phnom Penh
+      body: We have landed in Phnom Penh after a long and sketchy bus ride. We intend to visit and learn all about the Tuol Sleng Genocide Museum and the Killing Fields from the reign of the Khmer Rouge regime under Pol Pot.
+      align: image   
     - img: 3.png
       heading:
       alttext: TBD
