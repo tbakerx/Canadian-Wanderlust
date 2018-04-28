@@ -2,7 +2,8 @@
 title: 'Adventures of the Wandering Weirdos - Jon and Kara'
 media_order: a-Us.jpg
 published: true
-date: '25-02-2018 16:35'
+date: '04-01-2018 16:35'
+publish_date: '04-01-2018 17:08'
 taxonomy:
     category:
         - blog

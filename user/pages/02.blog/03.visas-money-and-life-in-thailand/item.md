@@ -2,17 +2,19 @@
 title: 'Visas, Money, and Life in Thailand - Jon and Kara'
 media_order: 'a-Elephant.jpg,Biker Gang.jpg,Cooking class.jpg,Flag.jpg,Floating bungalows.jpg,Koh Phi Phi Snorkeling.jpg,Koh Tao.jpg,Piece of Pai.jpg'
 published: true
+date: '04-01-2018 17:07'
+publish_date: '04-01-2018 17:08'
 taxonomy:
     category:
         - blog
         - 'Jon and Kara'
     tag:
-        - 'Jon and Kara'
         - Thailand
         - Islands
         - Beaches
         - Railay
         - 'Koh Tao'
+        - 'Jon and Kara'
 body_classes: 'header-lite fullwidth blogstyling'
 twitterenable: true
 twittercardoptions: summary_large_image
